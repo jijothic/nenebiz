@@ -10,14 +10,8 @@ const OnboardingLogo = () => (
       <Image source={images.logo} />
     </Box>
     <Box mb="sm">
-      <Text size="2xl">
-        In
-        <Text color="green" size="2xl">
-          Store
-        </Text>
-      </Text>
     </Box>
-    <Text size="sm">easy grocery shopping.</Text>
+    <Text size="sm" center>Sign up to add, Favourite & Rate your favorite places.</Text>
   </Box>
 );
 
