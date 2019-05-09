@@ -69,7 +69,7 @@ class CartItem extends Component {
             <Box mb="xs">
               <Text bold>{product.name}</Text>
               <Text color="greyDark" size="xs">
-                At ${product.kgPrice}
+                At Ksh{product.kgPrice}
                 /kg
               </Text>
             </Box>
@@ -111,7 +111,7 @@ class CartItem extends Component {
             )}
           </Box>
           <Box>
-            <Text>${product.totalPrice}</Text>
+            <Text>Ksh{product.totalPrice}</Text>
           </Box>
         </Box>
       </TouchableWithoutFeedback>

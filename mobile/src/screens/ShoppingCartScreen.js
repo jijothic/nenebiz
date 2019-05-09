@@ -71,7 +71,7 @@ class ShoppingCartScreen extends Component {
               style={{ right: theme.space.xs }}
             >
               <Text color="white" size="xs">
-                ${shoppingCartStore.totalAmount}
+                Ksh{shoppingCartStore.totalAmount}
               </Text>
             </Box>
           </Box>

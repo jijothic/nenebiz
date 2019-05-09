@@ -83,13 +83,13 @@ class ProductCard extends Component {
             </Box>
             <Box>
               <Text left size="sm" bold>
-                ${product.price} each
+                Ksh{product.price} each
               </Text>
               <Text left size="xs">
                 {product.name}
               </Text>
               <Text left size="xs" color="greyLight">
-                At ${product.kgPrice.toFixed(2)}
+                At Ksh{product.kgPrice.toFixed(2)}
                 /kg
               </Text>
             </Box>
