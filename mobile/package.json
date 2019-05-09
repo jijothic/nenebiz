@@ -16,7 +16,7 @@
     "mobx-react": "5.2.5",
     "mobx-state-tree": "3.2.2",
     "react": "16.3.1",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-25.0.0.tar.gz",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz",
     "react-native-design-utility": "^0.0.28",
     "react-navigation": "2.11.2",
     "ts-pnp": "^1.1.2",
