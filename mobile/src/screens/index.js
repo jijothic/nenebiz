@@ -101,13 +101,13 @@ HomeStack.navigationOptions = ({ navigation }) => {
 const TabNavigator = createBottomTabNavigator(
   {
     Home: HomeStack,
-    Places: {
+    List: {
       getScreen: () => require('./ListScreen').default,
     },
-    My Business: {
+    Stores: {
       getScreen: () => require('./StoresScreen').default,
     },
-    Advertise: {
+    Order: {
       getScreen: () => require('./OrderScreen').default,
     },
   },
