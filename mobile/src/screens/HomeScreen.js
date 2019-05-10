@@ -65,18 +65,20 @@ class HomeScreen extends Component {
           <DealCaroussel />
         </Box>
 
-        <Box f={1} p={10}>
-          <FlatList
-            data={categories}
-            renderItem={this.renderItem}
-            keyExtractor={this.keyExtractor}
-            numColumns={NUM_COLUMNS}
-            ItemSeparatorComponent={this.separator}
-          />
-        </Box>
+
       </Box>
     );
   }
 }
 
 export default HomeScreen;
+
+//  <Box f={1} p={10}>
+//<FlatList
+//data={categories}
+//renderItem={this.renderItem}
+//keyExtractor={this.keyExtractor}
+//numColumns={NUM_COLUMNS}
+//ItemSeparatorComponent={this.separator}
+///>
+//</Box>
