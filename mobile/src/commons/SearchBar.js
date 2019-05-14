@@ -8,7 +8,7 @@ export default class SearchBar extends Component {
     return (
       <View style={styles.wrapper}>
         <View style={styles.searchContainer}>
-          <Icon
+          <Ionicons
             name="ios-search"
             size={20}
             color={colors.green}
