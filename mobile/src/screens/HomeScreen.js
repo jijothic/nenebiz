@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Image, StyleSheet, TouchableOpacity } from 'react-native';
 import { StatusBar, FlatList } from 'react-native';
 import { Box, Text } from 'react-native-design-utility';
 
@@ -38,7 +39,29 @@ class HomeScreen extends Component {
     headerLeft: <ProfileBtn />,
   };
 
-  state = {};
+  state = {
+    active: 'Restaurant'
+  };
+
+  renderTab(tab) {
+    const { active } = this.state;
+    const isActive === tab;
+
+    return (
+      <TouchableOpacity
+        key={`tab-${tab}`}
+        onPress={() => this.handleTab(tab)}
+        style={[
+          styles.tab,
+          isActive ? styles.active : null
+        ]}
+      >
+        <Text size={16} medium gray={!isActive} secondary={isActive}>
+          {tab}
+        </Text>
+      </TouchableOpacity>
+    )
+  }
 
   renderItem = ({ item, index }) => {
     let style = {};
@@ -59,6 +82,7 @@ class HomeScreen extends Component {
   separator = () => <Box h={2} bg="greyLighter" />;
 
   render() {
+    const tabs =  ['Restaurants', 'Garage', 'Boutique', 'Salon', 'Supermarket'];
     return (
 
 
@@ -73,11 +97,26 @@ class HomeScreen extends Component {
           <DealCaroussel />
         </Box>
       </Box>
+      <Block flex={false} row style={styles.tabs}>
+        {tabs.map(tab => this.renderTab(tab))}
+
+      </Block>
     );
   }
 }
 
 export default HomeScreen;
+
+const styles = StyleSheet.create ({
+  tab: {
+    marginRight: 32,
+    paddingBottom: 16
+  },
+  active: {
+    borderBottomColor: "#2BDA8E",
+    borderBottomWidth: 3,
+  },
+})
 
 //  <Box f={1} p={10}>
 //<FlatList
