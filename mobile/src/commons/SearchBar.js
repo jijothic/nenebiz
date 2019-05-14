@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.8,
     shadowRadius: 10,
     borderRadius: 3,
-    height: 41,
+    height: 1,
     marginTop: 28,
     marginLeft: 20,
     marginRight: 20
