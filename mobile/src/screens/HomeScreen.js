@@ -9,6 +9,7 @@ import DealCaroussel from '../components/DealCaroussel';
 import ProfileBtn from '../commons/ProfileBtn';
 import SearchBar from '../commons/SearchBar';
 import Block from '../components/Block';
+import mock from '../constants/mocks';
 
 const categories = [
   {
@@ -69,7 +70,7 @@ class HomeScreen extends Component {
 
     if (index % NUM_COLUMNS !== 0) {
       style.borderLeftWidth = 2;
-      style.borderLeftColor = theme.color.greyLighter;
+      style.borderLeftColor = mock.color.greyLighter;
     }
     return (
       <Box w={1 / NUM_COLUMNS} bg="white" h={120} style={style}>
