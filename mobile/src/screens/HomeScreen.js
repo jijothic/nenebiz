@@ -45,7 +45,7 @@ class HomeScreen extends Component {
 
   renderTab(tab) {
     const { active } = this.state;
-    const isActive === tab;
+    const isActive = active === tab;
 
     return (
       <TouchableOpacity
