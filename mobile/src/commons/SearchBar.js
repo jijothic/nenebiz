@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
     display: 'flex',
     borderWidth: 1,
     borderColor: colors.grey01,
+    backgroundColor: colors.white,
     shadowColor: 'rgba(0,0,0,0.1)',
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.8,
