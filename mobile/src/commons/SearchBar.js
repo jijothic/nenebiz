@@ -12,13 +12,13 @@ export default class SearchBar extends Component {
     );
   }
 };
-
+// 'rgba(255,255,255,0.9'),
 const styles = StyleSheet.create({
   wrapper: {
     position: 'absolute',
     top: 0,
     left: 0,
-    backgroundColor: 'rgba(255,255,255,0.9'),
+    backgroundColor: #FFFFFF,
     width: '100%',
     height: 80,
   },
