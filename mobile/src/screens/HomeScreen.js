@@ -6,6 +6,7 @@ import CategoryCard from '../components/CategoryCard';
 import { theme } from '../constants/theme';
 import DealCaroussel from '../components/DealCaroussel';
 import ProfileBtn from '../commons/ProfileBtn';
+import SearchBar from '../commons/SearchBar';
 
 const categories = [
   {
@@ -59,6 +60,10 @@ class HomeScreen extends Component {
 
   render() {
     return (
+
+      <Box>
+        <SearchBar />
+      </Box>
       <Box f={1}>
         <StatusBar barStyle="light-content" />
         <Box h={130} bg="white" w={1}>
