@@ -11,7 +11,7 @@ export default class SearchBar extends Component {
           <Icon
             name="ios-search"
             size={20}
-            color:{colors.green}
+            color={colors.green}
             style={styles.searchIcon}
           />
           <Text style={styles.textInput}>Search for a business/service...</Text>
