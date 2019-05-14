@@ -64,13 +64,10 @@ class HomeScreen extends Component {
 
       <Box f={1}>
         <StatusBar barStyle="light-content" />
-
+        <SearchBar />
         <Box h={130} bg="white" w={1}>
           <DealCaroussel />
         </Box>
-        <SearchBar />
-
-
       </Box>
     );
   }
