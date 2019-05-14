@@ -8,6 +8,7 @@ import { theme } from '../constants/theme';
 import DealCaroussel from '../components/DealCaroussel';
 import ProfileBtn from '../commons/ProfileBtn';
 import SearchBar from '../commons/SearchBar';
+import Block from '../components/Block';
 
 const categories = [
   {
