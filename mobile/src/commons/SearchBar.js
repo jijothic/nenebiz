@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
   },
   searchIcon: {
     position: 'absolute',
-    left: 18,
+    right: 18,
     top: 9,
   },
   textInput: {
