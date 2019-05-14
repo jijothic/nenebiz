@@ -33,16 +33,27 @@ const styles = StyleSheet.create({
   searchContainer: {
     display: 'flex',
     borderWidth: 1,
-    borderColor: colors.grey,
+    borderColor: colors.grey01,
     backgroundColor: colors.white,
     shadowColor: 'rgba(0,0,0,0.1)',
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.8,
     shadowRadius: 10,
     borderRadius: 3,
-    height: 40,
-    marginTop: 25,
+    height: 41,
+    marginTop: 28,
     marginLeft: 20,
     marginRight: 20
+  },
+  searchIcon: {
+    position: 'absolute',
+    left: 18,
+    top: 9,
+  },
+  textInput: {
+    display: 'flex',
+    marginTop: 10,
+    marginLeft: 45,
+    color: colors.grey,
   },
 });
