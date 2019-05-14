@@ -96,11 +96,10 @@ class HomeScreen extends Component {
         <Box h={130} bg="white" w={1}>
           <DealCaroussel />
         </Box>
-      </Box>
-      <Block flex={false} row style={styles.tabs}>
+        <Block flex={false} row style={styles.tabs}>
         {tabs.map(tab => this.renderTab(tab))}
-
-      </Block>
+        </Block>
+      </Box>
     );
   }
 }
