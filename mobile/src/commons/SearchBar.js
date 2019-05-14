@@ -35,14 +35,14 @@ const styles = StyleSheet.create({
     borderColor: colors.grey01,
     backgroundColor: colors.white,
     shadowColor: 'rgba(0,0,0,0.1)',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.8,
+    shadowOffset: { width: 0, height: 5 },
+    shadowOpacity: 0.7,
     shadowRadius: 10,
     borderRadius: 3,
-    height: 41,
-    marginTop: 8,
-    marginLeft: 20,
-    marginRight: 20
+    height: 40,
+    marginTop: 5,
+    marginLeft: 21,
+    marginRight: 21
   },
   searchIcon: {
     position: 'absolute',
