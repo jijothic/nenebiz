@@ -64,7 +64,7 @@ class HomeScreen extends Component {
 
       <Box f={1}>
         <StatusBar barStyle="light-content" />
-        <Box f={1} p={10}>
+        <Box f={1} p={1}>
           <Box h={90}>
             <SearchBar />
           </Box>
