@@ -10,6 +10,7 @@ const color = {
   greyLightest: '#eeeeee',
 
   white: '#fff',
+  white01:'#FAFAFA',
 
   redDarkest: '#b71c1c',
   redDarker: '#c62828',
