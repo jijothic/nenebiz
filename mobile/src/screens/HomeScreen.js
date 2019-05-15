@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StatusBar, FlatList } from 'react-native';
+import { StatusBar, FlatList, ScrollView } from 'react-native';
 import { Box, Text } from 'react-native-design-utility';
 
 import CategoryCard from '../components/CategoryCard';
@@ -63,15 +63,17 @@ class HomeScreen extends Component {
 
 
       <Box f={1}>
-        <StatusBar barStyle="light-content" />
-        <Box f={1} p={1}>
-          <Box h={90}>
-            <SearchBar />
+        <ScrollView>
+          <StatusBar barStyle="light-content" />
+          <Box f={1} p={1}>
+            <Box h={90}>
+              <SearchBar />
+            </Box>
           </Box>
-        </Box>
-        <Box h={130} bg="white" w={1}>
-          <DealCaroussel />
-        </Box>
+          <Box h={130} bg="white" w={1}>
+            <DealCaroussel />
+          </Box>
+        </ScrollView>
       </Box>
     );
   }
