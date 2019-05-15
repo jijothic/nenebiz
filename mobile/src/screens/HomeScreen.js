@@ -8,6 +8,7 @@ import DealCaroussel from '../components/DealCaroussel';
 import ProfileBtn from '../commons/ProfileBtn';
 import SearchBar from '../commons/SearchBar';
 import Categories from '../components/Categories';
+import colors from '../constants/colors';
 
 const categories = [
   {
@@ -84,6 +85,13 @@ class HomeScreen extends Component {
 }
 
 export default HomeScreen;
+
+const styles = StyleSheet.create({
+  wrapper: {
+    flex: 1,
+    backgroundColor: colors.white
+  },
+});
 
 //  <Box f={1} p={10}>
 //<FlatList
