@@ -11,7 +11,7 @@ import { theme } from '../constants/theme';
 @observer
 class ShoppingCartScreen extends Component {
   static navigationOptions = ({ navigation }) => ({
-    title: 'My Cart',
+    title: 'My Notifications',
     headerLeft: (
       <CloseBtn left size={25} onPress={() => navigation.goBack(null)} />
     ),

@@ -8,7 +8,7 @@ class OrderScreen extends Component {
     return (
       <Box f={1} center>
         <StatusBar barStyle="light-content" />
-        <Text>Order Screen</Text>
+        <Text>Notification Screen</Text>
       </Box>
     );
   }
