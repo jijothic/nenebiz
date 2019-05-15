@@ -87,10 +87,7 @@ class HomeScreen extends Component {
 export default HomeScreen;
 
 const styles = StyleSheet.create({
-  wrapper: {
-    flex: 1,
-    backgroundColor: colors.white
-  },
+
 });
 
 //  <Box f={1} p={10}>
