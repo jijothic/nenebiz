@@ -69,7 +69,7 @@ class HomeScreen extends Component {
             <SearchBar />
           </Box>
         </Box>
-        <Box h={130} bg="white" w={2}>
+        <Box h={130} bg="white" w={1}>
           <DealCaroussel />
         </Box>
       </Box>
