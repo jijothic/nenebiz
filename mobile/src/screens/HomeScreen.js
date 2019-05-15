@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StatusBar, FlatList, ScrollView } from 'react-native';
+import { StatusBar, FlatList, ScrollView, View, StyleSheet } from 'react-native';
 import { Box, Text } from 'react-native-design-utility';
 
 import CategoryCard from '../components/CategoryCard';
@@ -68,7 +68,11 @@ class HomeScreen extends Component {
         <Box f={1} p={1}>
           <Box h={90}>
             <SearchBar />
-            <Categories />
+            <View style={styles.wrapper}>
+              <View style={styles.categories}>
+                <Categories />
+              </View>
+            </View>
           </Box>
         </Box>
         <Box h={130} bg="white" w={1}>
