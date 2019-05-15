@@ -7,6 +7,7 @@ import { theme } from '../constants/theme';
 import DealCaroussel from '../components/DealCaroussel';
 import ProfileBtn from '../commons/ProfileBtn';
 import SearchBar from '../commons/SearchBar';
+import Categories from '../components/Categories';
 
 const categories = [
   {
@@ -67,6 +68,7 @@ class HomeScreen extends Component {
         <Box f={1} p={1}>
           <Box h={90}>
             <SearchBar />
+            <Categories />
           </Box>
         </Box>
         <Box h={130} bg="white" w={1}>
