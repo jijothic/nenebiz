@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ScrollView, StyleSheet, TouchableHighlight, Image, View } from 'react-native';
+import { ScrollView, StyleSheet, TouchableHighlight, Image, View, Text } from 'react-native';
 
 export default class Categories extends Component {
   render() {
