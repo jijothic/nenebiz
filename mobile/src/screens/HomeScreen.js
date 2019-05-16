@@ -74,11 +74,11 @@ class HomeScreen extends Component {
             contentContainerStyle={styles.scrollViewContent}
           >
             <Text style={styles.heading}>Near You</Text>
-            <View style={styles.categories}>
-              <Categories categories={categoryList} />
-            </View>
-        </View>
+              <View style={styles.categories}>
+                <Categories categories={categoryList} />
+              </View>
         </ScrollView>
+        </View>
         <Box h={130} bg="white" w={1}>
           <DealCaroussel />
         </Box>
@@ -91,7 +91,6 @@ export default HomeScreen;
 
 const styles = StyleSheet.create({
   wrapper: {
-    flex: 1,
     backgroundColor: colors.white,
   },
   scrollview: {
