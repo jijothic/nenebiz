@@ -65,18 +65,28 @@ class HomeScreen extends Component {
     return (
 
 
-        <View style={styles.wrapper}>
-          <SearchBar />
-          <ScrollView
-            style={styles.scrollview}
-            contentContainerStyle={styles.scrollViewContent}
-          >
-            <Text style={styles.heading}>Near You</Text>
-              <View style={styles.categories}>
-                <Categories categories={categoryList} />
+      <Box f={1} bg={theme.color.white01}>
+        <StatusBar barStyle="light-content" />
+        <Box f={1} p={1}>
+          <Box h={90}>
+            <SearchBar />
+            <ScrollView
+              style={styles.scrollview}
+              contentContainerStyle={styles.scrollViewContent}
+            >
+              <Text style={styles.heading}>Near You</Text>
+              <View style={styles.wrapper}>
+                <View style={styles.categories}>
+                  <Categories categories={categoryList} />
+                </View>
               </View>
-        </ScrollView>
-        </View>
+            </ScrollView>
+          </Box>
+        </Box>
+        <Box h={130} bg="white" w={1}>
+          <DealCaroussel />
+        </Box>
+      </Box>
     );
   }
 }
@@ -94,9 +104,11 @@ const styles = StyleSheet.create({
     paddingBottom: 80,
   },
   categories: {
+
   },
   heading: {
     fontSize: 22,
+    fontWeight: 500,
     paddingLeft: 20,
     paddingBottom: 20,
     color: colors.black,
