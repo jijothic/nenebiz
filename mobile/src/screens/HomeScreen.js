@@ -65,7 +65,6 @@ class HomeScreen extends Component {
     return (
 
 
-      <Box f={1} bg={theme.color.white01}>
         <StatusBar barStyle="light-content" />
         <View style={styles.wrapper}>
           <SearchBar />
@@ -79,10 +78,6 @@ class HomeScreen extends Component {
               </View>
         </ScrollView>
         </View>
-        <Box h={130} bg="white" w={1}>
-          <DealCaroussel />
-        </Box>
-      </Box>
     );
   }
 }
