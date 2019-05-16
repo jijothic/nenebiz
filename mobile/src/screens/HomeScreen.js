@@ -104,7 +104,6 @@ const styles = StyleSheet.create({
     paddingBottom: 80,
   },
   categories: {
-
   },
   heading: {
     fontSize: 22,

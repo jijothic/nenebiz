@@ -29,7 +29,7 @@ class ShoppingCartScreen extends Component {
     if (shoppingCartStore.totalProducts === 0) {
       return (
         <Box center f={1}>
-          <Text>Cart Empty</Text>
+          <Text>No Notifications</Text>
         </Box>
       );
     }
