@@ -1,7 +1,7 @@
 const categoryList = [
   {
     name: 'Homes',
-    photo: require('../../assets/img/products/homeCategory.png'),
+    photo: require('../../assets/img/products/homesCategory.png'),
   },
   {
     name: 'Experiences',
@@ -9,7 +9,7 @@ const categoryList = [
   },
   {
     name: 'Restaurants',
-    photo: require('../../assets/img/products/restaurntsCategory.png'),
+    photo: require('../../assets/img/products/restaurantsCategory.png'),
   }
 ];
 export default categoryList;
