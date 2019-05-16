@@ -28,6 +28,7 @@ const styles = StyleSheet.create({
     left: 0,
     width: '100%',
     height: 80,
+    zIndex: 99,
   },
   searchContainer: {
     display: 'flex',

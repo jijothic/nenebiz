@@ -9,6 +9,7 @@ import ProfileBtn from '../commons/ProfileBtn';
 import SearchBar from '../commons/SearchBar';
 import Categories from '../components/Categories';
 import colors from '../constants/colors';
+import categoryList from '../constants/CategoryData';
 
 const categories = [
   {
@@ -69,11 +70,17 @@ class HomeScreen extends Component {
         <Box f={1} p={1}>
           <Box h={90}>
             <SearchBar />
-            <View style={styles.wrapper}>
-              <View style={styles.categories}>
-                <Categories />
+            <ScrollView
+              style={styles.scrollview}
+              contentContainerStyle={styles.scrollViewContent}
+            >
+              <Text style={styles.heading}>Near You</Text>
+              <View style={styles.wrapper}>
+                <View style={styles.categories}>
+                  <Categories categories={categoryList} />
+                </View>
               </View>
-            </View>
+            </ScrollView>
           </Box>
         </Box>
         <Box h={130} bg="white" w={1}>
@@ -87,6 +94,25 @@ class HomeScreen extends Component {
 export default HomeScreen;
 
 const styles = StyleSheet.create({
+  wrapper: {
+    backgroundColor: colors.white,
+  },
+  scrollview: {
+    paddingTop: 80,
+  },
+  scrollViewContent: {
+    paddingBottom: 80,
+  },
+  categories: {
+
+  },
+  heading: {
+    fontSize: 22,
+    fontWeight: 600,
+    paddingLeft: 20,
+    paddingBottom: 20,
+    color: colors.black,
+  }
 
 });
 
