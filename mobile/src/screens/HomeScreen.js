@@ -95,6 +95,7 @@ export default HomeScreen;
 
 const styles = StyleSheet.create({
   wrapper: {
+    flex: 1,
     backgroundColor: colors.white,
   },
   scrollview: {
