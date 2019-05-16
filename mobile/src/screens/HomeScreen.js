@@ -65,7 +65,6 @@ class HomeScreen extends Component {
     return (
 
 
-        <StatusBar barStyle="light-content" />
         <View style={styles.wrapper}>
           <SearchBar />
           <ScrollView
