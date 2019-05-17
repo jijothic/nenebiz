@@ -1,6 +1,17 @@
 import React, { Component } from 'react';
 import { ScrollView, StyleSheet, TouchableHighlight, Image, View, Text } from 'react-native';
+import iphoneSize from '../constants/helper';
 
+const size = iPhoneSize();
+let cardSize = 100;
+let cardMargin = 8;
+
+if (size === 'small') {
+  cardSize = 90;
+  cardMargin = 4;
+} else if (size === 'large') {
+  cardSize = 115;
+}
 export default class Categories extends Component {
   get Categories() {
     const { categories } = this.props;
