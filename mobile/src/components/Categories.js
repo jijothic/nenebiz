@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ScrollView, StyleSheet, TouchableHighlight, Image, View, Text } from 'react-native';
-import iphoneSize from '../constants/helper';
+import iPhoneSize from '../constants/helper';
 
 const size = iPhoneSize();
 let cardSize = 100;
