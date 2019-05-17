@@ -69,7 +69,7 @@ class HomeScreen extends Component {
         style={styles.scrollview}
         contentContainerStyle={styles.scrollViewContent}
       >
-        <Text style={styles.heading}>Explore Airbnb</Text>
+        <Text style={styles.heading}>Explore Nenebiz</Text>
         <View style={styles.categories}>
           <Categories categories={categoryList} />
         </View>
