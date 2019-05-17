@@ -9,7 +9,7 @@ import ProfileBtn from '../commons/ProfileBtn';
 import SearchBar from '../commons/SearchBar';
 import Categories from '../components/Categories';
 import colors from '../constants/colors';
-import categoryList from '../constants/CategoryData';
+import categoryList from '../constants/categories';
 
 const categories = [
   {
