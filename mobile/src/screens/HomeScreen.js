@@ -71,7 +71,7 @@ class HomeScreen extends Component {
       >
         <Text style={styles.heading}>Explore Airbnb</Text>
         <View style={styles.categories}>
-          <Categories categories={categoriesList} />
+          <Categories categories={categoryList} />
         </View>
       </ScrollView>
     </View>
