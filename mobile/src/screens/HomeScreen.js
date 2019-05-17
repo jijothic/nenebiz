@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
   heading: {
     flex: 1,
     fontSize: 22,
-    paddingLeft: 40,
+    paddingLeft: 20,
     paddingBottom: 20,
     fontWeight: 'bold',
     color: colors.black,
