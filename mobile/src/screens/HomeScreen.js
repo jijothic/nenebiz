@@ -99,10 +99,10 @@ const styles = StyleSheet.create({
     backgroundColor: colors.white,
   },
   scrollview: {
-    paddingTop: 80,
+    paddingTop: 8,
   },
   scrollViewContent: {
-    paddingBottom: 80,
+    paddingBottom: 8,
   },
   categories: {
 
