@@ -63,30 +63,18 @@ class HomeScreen extends Component {
 
   render() {
     return (
-
-
-      <Box f={1} bg={theme.color.white01}>
-        <StatusBar barStyle="light-content" />
-        <Box>
-          <Box>
-            <SearchBar />
-          </Box>
-          <View style={styles.wrapper}>
-            <ScrollView
-                style={styles.scrollview}
-                contentContainerStyle={styles.scrollViewContent}
-              >
-                <Text style={styles.heading}>Near You</Text>
-                  <View style={styles.categories}>
-                    <Categories categories={categoryList} />
-                  </View>
-              </ScrollView>
-          </View>
-        </Box>
-        <Box h={130} bg="white" w={1}>
-          <DealCaroussel />
-        </Box>
-      </Box>
+      <View style={styles.wrapper}>
+      <SearchBar />
+      <ScrollView
+        style={styles.scrollview}
+        contentContainerStyle={styles.scrollViewContent}
+      >
+        <Text style={styles.heading}>Explore Airbnb</Text>
+        <View style={styles.categories}>
+          <Categories categories={categoriesList} />
+        </View>
+      </ScrollView>
+    </View>
     );
   }
 }
