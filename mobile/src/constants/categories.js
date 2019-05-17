@@ -1,15 +1,15 @@
 const categoriesList = [
   {
   	name: 'Homes',
-  	photo: require('./photos/homesCategory.png'),
+  	photo: require('../../assets/img/categories/homesCategory.png'),
   },
   {
   	name: 'Experiences',
-  	photo: require('./photos/experiencesCategory.png'),
+  	photo: require('../../assets/img/categories/experiencesCategory.png'),
   },
   {
   	name: 'Restaurants',
-  	photo: require('./photos/restaurantsCategory.png'),
+  	photo: require('../../assets/img/categories/restaurantsCategory.png'),
   }
 ];
 
