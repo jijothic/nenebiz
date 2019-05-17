@@ -64,9 +64,7 @@ class HomeScreen extends Component {
   render() {
     return (
       <View style={styles.wrapper}>
-      <Box h={130} bg="white" w={1}>
-          <DealCaroussel />
-        </Box>
+      <DealCaroussel />
       <ScrollView
         style={styles.scrollview}
         contentContainerStyle={styles.scrollViewContent}
