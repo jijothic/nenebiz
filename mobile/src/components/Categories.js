@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ScrollView, StyleSheet, TouchableHighlight, Image, View, Text } from 'react-native';
+import { ScrollView, StyleSheet, TouchableOpacity, Image, View, Text } from 'react-native';
 import iPhoneSize from '../constants/helper';
 
 const size = iPhoneSize();
@@ -17,7 +17,7 @@ export default class Categories extends Component {
     const { categories } = this.props;
     return categories.map((category, index) => {
       return(
-        <TouchableHighlight
+        <TouchableOpacity
           style={styles.card}
           key={`category-item-${index}`}
         >
@@ -25,7 +25,7 @@ export default class Categories extends Component {
             source={category.photo}
             style={styles.image}
           />
-        </TouchableHighlight>
+        </TouchableOpacity>
       );
     });
   }
