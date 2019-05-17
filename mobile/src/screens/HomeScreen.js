@@ -67,8 +67,8 @@ class HomeScreen extends Component {
 
       <Box f={1} bg={theme.color.white01}>
         <StatusBar barStyle="light-content" />
-        <Box f={1} p={1}>
-          <Box h={90}>
+        <Box>
+          <Box>
             <SearchBar />
           </Box>
           <ScrollView
@@ -99,10 +99,10 @@ const styles = StyleSheet.create({
     backgroundColor: colors.white,
   },
   scrollview: {
-    paddingTop: 8,
+    paddingTop: 80,
   },
   scrollViewContent: {
-    paddingBottom: 8,
+    paddingBottom: 80,
   },
   categories: {
 
