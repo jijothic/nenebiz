@@ -64,7 +64,7 @@ class HomeScreen extends Component {
   render() {
     return (
       <View style={styles.wrapper}>
-      <DealCaroussel />
+      <SearchBar />
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}
@@ -106,9 +106,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: colors.black,
   }
-
 });
-
 //  <Box f={1} p={10}>
 //<FlatList
 //data={categories}
