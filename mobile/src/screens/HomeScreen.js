@@ -99,6 +99,7 @@ const styles = StyleSheet.create({
 
   },
   heading: {
+    flex: 1,
     fontSize: 22,
     paddingLeft: 40,
     paddingBottom: 20,
