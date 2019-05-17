@@ -67,6 +67,7 @@ class HomeScreen extends Component {
       <DealCaroussel />
       <ScrollView
         horizontal
+        showsHorizontalScrollIndicator={false}
         style={styles.scrollview}
         contentContainerStyle={styles.scrollViewContent}
       >
