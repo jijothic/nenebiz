@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.white,
   },
   scrollview: {
-    paddingTop: 100,
+    paddingTop: 10,
   },
   scrollViewContent: {
     paddingBottom: 100,
