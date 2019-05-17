@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
   },
   heading: {
     fontSize: 22,
-    paddingLeft: 20,
+    paddingLeft: 40,
     paddingBottom: 20,
     color: colors.black,
   }
