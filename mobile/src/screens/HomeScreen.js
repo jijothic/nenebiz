@@ -66,6 +66,7 @@ class HomeScreen extends Component {
       <View style={styles.wrapper}>
       <DealCaroussel />
       <ScrollView
+        horizontal
         style={styles.scrollview}
         contentContainerStyle={styles.scrollViewContent}
       >
