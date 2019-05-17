@@ -1,15 +1,16 @@
-const categoryList = [
+const categoriesList = [
   {
-    name: 'Homes',
-    photo: require('../../assets/img/categories/homesCategory.png'),
+  	name: 'Homes',
+  	photo: require('./photos/homesCategory.png'),
   },
   {
-    name: 'Experiences',
-    photo: require('../../assets/img/categories/experiencesCategory.png'),
+  	name: 'Experiences',
+  	photo: require('./photos/experiencesCategory.png'),
   },
   {
-    name: 'Restaurants',
-    photo: require('../../assets/img/categories/restaurantsCategory.png'),
+  	name: 'Restaurants',
+  	photo: require('./photos/restaurantsCategory.png'),
   }
 ];
-export default categoryList;
+
+export default categoriesList;
