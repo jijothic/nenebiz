@@ -1,27 +1,27 @@
 const categoryList = [
   {
     name: 'Homes',
-    photo: "Home",
+    photo: require('../../assets/img/categories/homesCategory.png'),
   },
   {
     name: 'Experiences',
-    photo: "Home",
+    photo: require('../../assets/img/categories/experiencesCategory.png'),
   },
   {
     name: 'Restaurants',
-    photo: "Home",
+    photo: require('../../assets/img/categories/restaurantsCategory.png'),
   },
   {
     name: 'Homes',
-    photo: "Home",
+    photo: require('../../assets/img/categories/homesCategory.png'),
   },
   {
     name: 'Experiences',
-    photo: "Home",
+    photo: require('../../assets/img/categories/experiencesCategory.png'),
   },
   {
     name: 'Restaurants',
-    photo: "Home",
+    photo: require('../../assets/img/categories/restaurantsCategory.png'),
   }
 ];
 export default categoryList;
