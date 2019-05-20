@@ -5,11 +5,6 @@ import { Box, Text } from 'react-native-design-utility';
 import ProfileBtn from '../commons/ProfileBtn';
 
 class StoresScreen extends Component {
-  static navigationOption = {
-    tittle: 'My Business',
-    headerLeft: <ProfileBtn />,
-  };
-
   state = {};
   render() {
     return (
