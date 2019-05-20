@@ -3,6 +3,11 @@ import { StatusBar } from 'react-native';
 import { Box, Text } from 'react-native-design-utility';
 
 class StoresScreen extends Component {
+  static navigationOption = {
+    tittle: 'My Business',
+    headerLeft: <ProfileBtn />,
+  };
+
   state = {};
   render() {
     return (
