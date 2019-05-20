@@ -72,7 +72,7 @@ class HomeScreen extends Component {
         contentContainerStyle={styles.scrollViewContent}
       >
         <View style={styles.categories}>
-          <Categories categories={categoryList} />
+          <Categories categories={categoryList.name} />
         </View>
       </ScrollView>
     </View>
