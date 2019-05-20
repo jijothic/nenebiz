@@ -88,13 +88,14 @@ const styles = StyleSheet.create({
     backgroundColor: colors.white,
   },
   scrollview: {
-    paddingTop: 1,
+    paddingTop: 10,
   },
   scrollViewContent: {
     paddingBottom: 100,
   },
   categories: {
     marginBottom: 40,
+    marginTop: 2,
 
   },
   heading: {
