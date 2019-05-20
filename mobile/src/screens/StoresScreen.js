@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { StatusBar } from 'react-native';
 import { Box, Text } from 'react-native-design-utility';
 
+import ProfileBtn from '../commons/ProfileBtn';
+
 class StoresScreen extends Component {
   static navigationOption = {
     tittle: 'My Business',
