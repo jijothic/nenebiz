@@ -16,6 +16,7 @@ class CategoryCard extends PureComponent {
     return (
       <ScrollView
         horizontal
+        showsHorizontalScrollIndicator={false}
       >
         <TouchableOpacity onPress={this.handlePress} style={styles.button}>
           <Box center f={2}>

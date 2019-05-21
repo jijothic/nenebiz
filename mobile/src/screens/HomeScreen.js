@@ -111,12 +111,3 @@ const styles = StyleSheet.create({
     color: colors.black,
   }
 });
-//  <Box f={1} p={10}>
-//<FlatList
-//data={categories}
-//renderItem={this.renderItem}
-//keyExtractor={this.keyExtractor}
-//numColumns={NUM_COLUMNS}
-//ItemSeparatorComponent={this.separator}
-///>
-//</Box>
