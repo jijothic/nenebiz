@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { StatusBar, FlatList, ScrollView, View, StyleSheet } from 'react-native';
 import { Box, Text } from 'react-native-design-utility';
+import { Font } from 'expo';
+import ''
 
 import CategoryCard from '../components/CategoryCard';
 import { theme } from '../constants/theme';
@@ -84,7 +86,7 @@ class HomeScreen extends Component {
           />
         </Box>
         <Box f={1} styele={styles.heading}>
-          <Text>Near You</Text>
+          <Text bold>Near You</Text>
         </Box>
         <Box>
           <Text>1 Km</Text>
