@@ -19,16 +19,9 @@ class CategoryCard extends PureComponent {
       >
         <TouchableOpacity onPress={this.handlePress} style={styles.button}>
           <Box center f={1}>
-            {image && (
-              <Box center mb="sm">
-                <Image source={image} />
-              </Box>
-            )}
-            <Box center>
-              <Text size="sm" center bold capitalizeEach color="#B5B5B5">
-                {title}
-              </Text>
-            </Box>
+            <Text size="sm" center bold capitalizeEach color="#B5B5B5">
+              {title}
+            </Text>
           </Box>
         </TouchableOpacity>
       </ScrollView>
