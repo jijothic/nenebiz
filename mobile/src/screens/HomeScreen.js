@@ -60,7 +60,7 @@ class HomeScreen extends Component {
 
   keyExtractor = item => String(item.id);
 
-  separator = () => <Box h={2} bg="greyLighter" />;
+  separator = () => <Box h={1} bg="greyLighter" />;
 
   render() {
     return (
