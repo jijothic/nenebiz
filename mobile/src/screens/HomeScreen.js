@@ -70,7 +70,7 @@ class HomeScreen extends Component {
           <SearchBar />
         </Box>
       <ScrollView
-        horizontal
+        horizontal={false}
         showsVerticalScrollIndicator={false}
       >
         <Box f={1}>
