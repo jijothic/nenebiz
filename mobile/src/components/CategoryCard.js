@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { Image, TouchableOpacity, StyleSheet } from 'react-native';
+import { Image, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
 import { Box, Text } from 'react-native-design-utility';
 
 import { NavigationService } from '../api/NavigationService';
@@ -14,20 +14,24 @@ class CategoryCard extends PureComponent {
   render() {
     const { title, image } = this.props;
     return (
-      <TouchableOpacity onPress={this.handlePress} style={styles.button}>
-        <Box center f={1}>
-          {image && (
-            <Box center mb="sm">
-              <Image source={image} />
+      <ScrollView
+        horizontal
+      >
+        <TouchableOpacity onPress={this.handlePress} style={styles.button}>
+          <Box center f={1}>
+            {image && (
+              <Box center mb="sm">
+                <Image source={image} />
+              </Box>
+            )}
+            <Box center>
+              <Text size="sm" center bold capitalizeEach color="#B5B5B5">
+                {title}
+              </Text>
             </Box>
-          )}
-          <Box center>
-            <Text size="sm" center bold capitalizeEach color="#B5B5B5">
-              {title}
-            </Text>
           </Box>
-        </Box>
-      </TouchableOpacity>
+        </TouchableOpacity>
+      <ScrollView
     );
   }
 }
