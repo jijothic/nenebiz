@@ -15,17 +15,13 @@ const categories = [
   {
     id: 1,
     title: 'Restaurant',
-    image: require('../../assets/img/cart.png'),
   },
   {
     id: 2,
     title: 'Garage',
-    image: require('../../assets/img/drugs.png'),
-  },
   {
     id: 3,
     title: 'Boutique',
-    image: require('../../assets/img/pets.png'),
   },
   {
     id: 4,
