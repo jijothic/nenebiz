@@ -39,7 +39,7 @@ const color = {
   greenDarkest: '#1b5e20',
   greenDarker: '#2e7d32',
   greenDark: '#388e3c',
-  green: '#42B029',
+  green: '#2EB62C',
   greenLight: '#66bb6a',
   greenLighter: '#81c784',
   greenLightest: '#a5d6a7',
