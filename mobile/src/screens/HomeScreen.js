@@ -79,6 +79,9 @@ class HomeScreen extends Component {
             ItemSeparatorComponent={this.separator}
           />
         </Box>
+        <Box>
+          <Text>Near You</Text>
+        </Box>
       </Box>
     );
   }
