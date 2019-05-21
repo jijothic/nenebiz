@@ -67,7 +67,11 @@ class HomeScreen extends Component {
       <SearchBar />
     </View>
     <Box f={1} bg="blue">
-      <FlatList data={categories} renderItem={this.renderItem} />
+      <FlatList
+        data={categories}
+        renderItem={this.renderItem}
+        keyExtractor={this.keyExtractor}>
+      </FlatList>
 
     </Box>
     );
