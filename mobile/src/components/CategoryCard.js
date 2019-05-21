@@ -32,6 +32,9 @@ class CategoryCard extends PureComponent {
 
 const styles = StyleSheet.create({
   button: {
+    marginTop: 10,
+    marginBottom: 10,
+    flexDirection: 'row',
   },
 });
 
