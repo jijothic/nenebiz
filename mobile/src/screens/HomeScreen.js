@@ -70,8 +70,10 @@ class HomeScreen extends Component {
           <SearchBar />
         </Box>
       <ScrollView
-        horizontal={false}
+        horizontal
         showsVerticalScrollIndicator={false}
+        style={styles.scrollview}
+        contentContainerStyle={styles.scrollViewContent}
       >
         <Box f={1}>
           <FlatList
