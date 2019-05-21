@@ -64,7 +64,7 @@ class HomeScreen extends Component {
 
   render() {
     return (
-      <Box f={1}>
+      <Box f={1} flexDirection='row'>
         <StatusBar barStyle="light-content" />
         <Box style={styles.wrapper}>
           <SearchBar />
