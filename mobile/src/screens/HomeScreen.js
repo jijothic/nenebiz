@@ -65,16 +65,6 @@ class HomeScreen extends Component {
     return (
       <View style={styles.wrapper}>
       <SearchBar />
-      <ScrollView
-        horizontal
-        showsHorizontalScrollIndicator={false}
-        style={styles.scrollview}
-        contentContainerStyle={styles.scrollViewContent}
-      >
-        <View style={styles.categories}>
-          <Categories categories={categoryList} />
-        </View>
-      </ScrollView>
     </View>
     );
   }
