@@ -14,22 +14,26 @@ import categoryList from '../constants/categories';
 const categories = [
   {
     id: 1,
-    title: 'Grocery',
+    title: 'Restaurant',
     image: require('../../assets/img/cart.png'),
   },
   {
     id: 2,
-    title: 'Drugs',
+    title: 'Garage',
     image: require('../../assets/img/drugs.png'),
   },
   {
     id: 3,
-    title: 'Pets',
+    title: 'Boutique',
     image: require('../../assets/img/pets.png'),
   },
   {
     id: 4,
-    title: 'video games',
+    title: 'Saloon',
+  },
+  {
+    id: 5,
+    title: 'Supermarket'
   },
 ];
 
