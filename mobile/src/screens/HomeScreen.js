@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { StatusBar, FlatList, ScrollView, View, StyleSheet } from 'react-native';
 import { Box, Text } from 'react-native-design-utility';
-import { Font } from 'expo';
-import ''
 
 import CategoryCard from '../components/CategoryCard';
 import { theme } from '../constants/theme';
