@@ -64,7 +64,7 @@ class HomeScreen extends Component {
 
   render() {
     return (
-      <Box f={1} flexDirection='row'>
+      <Box f={1}>
         <StatusBar barStyle="light-content" />
         <Box style={styles.wrapper}>
           <SearchBar />
@@ -74,7 +74,7 @@ class HomeScreen extends Component {
         style={styles.scrollview}
         contentContainerStyle={styles.scrollViewContent}
       >
-        <Box f={1}>
+        <Box f={1} flexDirection='row'>
           <FlatList
             data={categories}
             renderItem={this.renderItem}
