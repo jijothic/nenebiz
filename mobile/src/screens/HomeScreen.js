@@ -19,6 +19,7 @@ const categories = [
   {
     id: 2,
     title: 'Garage',
+  },
   {
     id: 3,
     title: 'Boutique',
