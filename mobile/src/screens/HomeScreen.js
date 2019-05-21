@@ -69,7 +69,7 @@ class HomeScreen extends Component {
         <Box style={styles.wrapper}>
           <SearchBar />
         </Box>
-
+      <ScrollView>
         <Box f={1}>
           <FlatList
             data={categories}
@@ -82,7 +82,10 @@ class HomeScreen extends Component {
         <Box f={1} styele={styles.heading}>
           <Text>Near You</Text>
         </Box>
+      </ScrollView>
       </Box>
+
+
     );
   }
 }
