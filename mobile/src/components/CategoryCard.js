@@ -18,7 +18,7 @@ class CategoryCard extends PureComponent {
         horizontal
       >
         <TouchableOpacity onPress={this.handlePress} style={styles.button}>
-          <Box center f={1}>
+          <Box center f={2}>
             <Text size="sm" center bold capitalizeEach color="#B5B5B5">
               {title}
             </Text>
