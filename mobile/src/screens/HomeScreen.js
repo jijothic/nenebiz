@@ -70,7 +70,6 @@ class HomeScreen extends Component {
           <SearchBar />
         </Box>
       <ScrollView
-        horizontal
         showsVerticalScrollIndicator={false}
         style={styles.scrollview}
         contentContainerStyle={styles.scrollViewContent}
@@ -86,6 +85,9 @@ class HomeScreen extends Component {
         </Box>
         <Box f={1} styele={styles.heading}>
           <Text>Near You</Text>
+        </Box>
+        <Box>
+          <Text>1 Km</Text>
         </Box>
       </ScrollView>
       </Box>
