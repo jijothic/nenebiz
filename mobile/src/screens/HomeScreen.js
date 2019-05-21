@@ -85,8 +85,8 @@ class HomeScreen extends Component {
             ItemSeparatorComponent={this.separator}
           />
         </Box>
-        <Box f={1} styele={styles.heading}>
-          <Text bold>Near You</Text>
+        <Box f={1} style={styles.heading}>
+          <Text>Near You</Text>
         </Box>
         <Box>
           <Text>1 Km</Text>
