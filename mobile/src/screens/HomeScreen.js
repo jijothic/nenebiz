@@ -72,7 +72,6 @@ class HomeScreen extends Component {
           renderItem={this.renderItem}
           keyExtractor={this.keyExtractor}>
         </FlatList>
-
       </Box>
     );
   }
