@@ -60,8 +60,6 @@ class HomeScreen extends Component {
 
   keyExtractor = item => String(item.id);
 
-  separator = () => <Box h={1} bg="greyLighter" />;
-
   render() {
     return (
       <Box f={1}>
@@ -80,8 +78,6 @@ class HomeScreen extends Component {
             renderItem={this.renderItem}
             keyExtractor={this.keyExtractor}
             numColumns={NUM_COLUMNS}
-            ItemSeparatorComponent={this.separator}
-            contentContainerStyle={styles.scroller}
           />
         </Box>
         <Box>
@@ -114,14 +110,6 @@ const styles = StyleSheet.create({
   categories: {
     marginBottom: 40,
     marginTop: 2,
-
-  },
-
-  scroller: {
-  	flex: 1,
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
   heading: {
     flex: 1,
