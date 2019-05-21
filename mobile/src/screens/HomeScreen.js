@@ -74,13 +74,14 @@ class HomeScreen extends Component {
         style={styles.scrollview}
         contentContainerStyle={styles.scrollViewContent}
       >
-        <Box f={1} flexDirection='row'>
+        <Box f={1}>
           <FlatList
             data={categories}
             renderItem={this.renderItem}
             keyExtractor={this.keyExtractor}
             numColumns={NUM_COLUMNS}
             ItemSeparatorComponent={this.separator}
+            contentContainerStyle={styles.scroller}
           />
         </Box>
         <Box>
@@ -114,6 +115,13 @@ const styles = StyleSheet.create({
     marginBottom: 40,
     marginTop: 2,
 
+  },
+
+  scroller: {
+  	flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   heading: {
     flex: 1,
