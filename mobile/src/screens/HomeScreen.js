@@ -79,9 +79,9 @@ class HomeScreen extends Component {
             ItemSeparatorComponent={this.separator}
           />
         </Box>
-      </Box>
-      <Box>
-        <Text>Near You</Text>
+        <Box f={1} styele={styles.heading}>
+          <Text>Near You</Text>
+        </Box>
       </Box>
     );
   }
