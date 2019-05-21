@@ -63,15 +63,21 @@ class HomeScreen extends Component {
 
   render() {
     return (
-      <View style={styles.wrapper}>
-      <SearchBar />
-      </View>
-      <Box f={1} bg="blue">
-        <FlatList
-          data={categories}
-          renderItem={this.renderItem}
-          keyExtractor={this.keyExtractor}
-        />
+      <Box f={1}>
+        <StatusBar barStyle="light-content" />
+        <Box style={styles.wrapper}>
+          <SearchBar />
+        </Box>
+
+        <Box f={1}>
+          <FlatList
+            data={categories}
+            renderItem={this.renderItem}
+            keyExtractor={this.keyExtractor}
+            numColumns={NUM_COLUMNS}
+            ItemSeparatorComponent={this.separator}
+          />
+        </Box>
       </Box>
     );
   }
