@@ -33,7 +33,7 @@ const categories = [
   },
 ];
 
-const NUM_COLUMNS = 3;
+const NUM_COLUMNS = 5;
 
 class HomeScreen extends Component {
   static navigationOptions = {
