@@ -66,6 +66,10 @@ class HomeScreen extends Component {
       <View style={styles.wrapper}>
       <SearchBar />
     </View>
+    <Box f={1} bg="blue">
+      <FlatList data={categories} renderItem={this.renderItem} />
+
+    </Box>
     );
   }
 }
