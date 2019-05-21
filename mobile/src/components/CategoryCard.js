@@ -31,7 +31,6 @@ class CategoryCard extends PureComponent {
 
 const styles = StyleSheet.create({
   button: {
-    flex: 1,
   },
 });
 
