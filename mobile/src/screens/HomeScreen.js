@@ -70,8 +70,8 @@ class HomeScreen extends Component {
         <FlatList
           data={categories}
           renderItem={this.renderItem}
-          keyExtractor={this.keyExtractor}>
-        </FlatList>
+          keyExtractor={this.keyExtractor}
+        />
       </Box>
     );
   }
