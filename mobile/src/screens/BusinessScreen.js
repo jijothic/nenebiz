@@ -4,16 +4,16 @@ import { Box, Text } from 'react-native-design-utility';
 
 import ProfileBtn from '../commons/ProfileBtn';
 
-class StoresScreen extends Component {
+class BusinessScreen extends Component {
   state = {};
   render() {
     return (
       <Box f={1} center>
         <StatusBar barStyle="light-content" />
-        <Text>Stores Screen</Text>
+        <Text>BusinessScreen</Text>
       </Box>
     );
   }
 }
 
-export default StoresScreen;
+export default BusinessScreen;
