@@ -22,7 +22,7 @@ class CategoryCard extends PureComponent {
             </Box>
           )}
           <Box center>
-            <Text size="sm" center capitalizeEach color="#B5B5B5">
+            <Text size="sm" center bold capitalizeEach color="#B5B5B5">
               {title}
             </Text>
           </Box>
