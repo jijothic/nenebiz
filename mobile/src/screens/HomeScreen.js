@@ -35,7 +35,6 @@ const categories = [
 ];
 
 const NUM_COLUMNS = 5;
-const NUM_ROWS = 5;
 
 class HomeScreen extends Component {
   static navigationOptions = {
@@ -48,12 +47,12 @@ class HomeScreen extends Component {
   renderItem = ({ item, index }) => {
     let style = {};
 
-    if (index % NUM_ROWS !== 0) {
+    if (index % NUM_COLUMNS !== 0) {
       style.borderLeftWidth = 2;
       style.borderLeftColor = theme.color.greyLighter;
     }
     return (
-      <Box w={1 / NUM_ROWS} bg="white" h={120} style={style}>
+      <Box w={1 / NUM_COLUMNS} bg="white" h={120} style={style}>
         <CategoryCard {...item} />
       </Box>
     );
@@ -76,7 +75,7 @@ class HomeScreen extends Component {
             data={categories}
             renderItem={this.renderItem}
             keyExtractor={this.keyExtractor}
-            numRows={NUM_ROWS}
+            numColumns={NUM_COLUMNS}
             ItemSeparatorComponent={this.separator}
           />
         </Box>
