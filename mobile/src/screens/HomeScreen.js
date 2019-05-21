@@ -52,7 +52,7 @@ class HomeScreen extends Component {
       style.borderLeftColor = theme.color.greyLighter;
     }
     return (
-      <Box w={1 / NUM_COLUMNS} bg="white" h={120} style={style}>
+      <Box w={NUM_COLUMNS} bg="white" h={120} style={style}>
         <CategoryCard {...item} />
       </Box>
     );
