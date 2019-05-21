@@ -80,7 +80,6 @@ class HomeScreen extends Component {
             renderItem={this.renderItem}
             keyExtractor={this.keyExtractor}
             numColumns={NUM_COLUMNS}
-            flexDirection={row}
             ItemSeparatorComponent={this.separator}
           />
         </Box>
