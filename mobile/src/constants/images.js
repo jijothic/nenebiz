@@ -13,7 +13,7 @@ export const tabBarIcons = {
   },
   inactive: {
     Home: require('../../assets/img/HomeIconInactive.png'),
-    Favorites: require('../../assets/img/FavoritesIconInactive.png'),
+    Favorites: require('../../assets/img/FavoriteIconInactive.png'),
     Business: require('../../assets/img/BusinessIconInactive.png'),
     Advertise: require('../../assets/img/AdvertiseIconInactive.png'),
   },
