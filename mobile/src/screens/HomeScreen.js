@@ -45,6 +45,10 @@ class HomeScreen extends Component {
 
   state = {};
 
+  this.state = {
+    categ:['Restaurant','Garage','Boutique','Saloon','Saloon']
+  }
+
   renderItem = ({ item, index }) => {
     let style = {};
 
@@ -69,12 +73,19 @@ class HomeScreen extends Component {
 
   render() {
     return (
-      <Box f={1}>
-        <StatusBar barStyle="light-content" />
-        <Box style={styles.wrapper}>
-          {/* <SearchBar /> */}
-        </Box>
-      </Box>
+      // <Box f={1}>
+      //   <StatusBar barStyle="light-content" />
+      //   <Box style={styles.wrapper}>
+      //     {/* <SearchBar /> */}
+      //   </Box>
+      // </Box>
+      <ScrollView>
+        <View style={styles.container}>
+          <Horizontalscrollitems
+            categ={this.state.categ}
+          />
+        </View>
+      </ScrollView>
     );
   }
 }
@@ -108,5 +119,8 @@ const styles = StyleSheet.create({
     paddingBottom: 20,
     fontWeight: 'bold',
     color: colors.black,
+  },
+  container: {
+    marginTop: 10,
   }
 });
