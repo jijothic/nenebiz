@@ -96,6 +96,9 @@ class HomeScreen extends Component {
             updateCategoryHandler={this.updateCategoryHandler}
           />
         </View>
+        <View>
+        <Text>Near You</Text>
+      </View>
       </ScrollView>
     );
   }
