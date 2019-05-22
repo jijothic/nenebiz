@@ -14,6 +14,19 @@ class Horizontalscrollitems extends Component {
         <View style={styles.scrollContainer}>
           <Text>Hello</Text>
           <Text>Hello</Text>
+          <Text>Hello</Text>
+          <Text>Hello</Text>
+          <Text>Hello</Text>
+          <Text>Hello</Text>
+          <Text>Hello</Text>
+          <Text>Hello</Text>
+          <Text>Hello</Text>
+          <Text>Hello</Text>
+          <Text>Hello</Text>
+          <Text>Hello</Text>
+          <Text>Hello</Text>
+          <Text>Hello</Text>
+          <Text>Hello</Text>
 
         </View>
 
