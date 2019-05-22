@@ -43,7 +43,6 @@ class HomeScreen extends Component {
     headerLeft: <ProfileBtn />,
   };
 
-  state = {};
 
   this.state = {
     categ:['Restaurant','Garage','Boutique','Saloon','Saloon']
