@@ -72,26 +72,9 @@ class HomeScreen extends Component {
       <Box f={1}>
         <StatusBar barStyle="light-content" />
         <Box style={styles.wrapper}>
-          <SearchBar />
-        </Box>
-
-        {/* <Box f={1}>
-          <FlatList
-            data={categories}
-            renderItem={this.renderItem}
-            keyExtractor={this.keyExtractor}
-            numColumns={NUM_COLUMNS}
-          />
-        </Box> */}
-        <Box>
-          <Text style={styles.heading}>Near You</Text>
-        </Box>
-        <Box>
-          <Text>1 Km</Text>
+          {/* <SearchBar /> */}
         </Box>
       </Box>
-
-
     );
   }
 }
