@@ -43,10 +43,15 @@ class HomeScreen extends Component {
     headerLeft: <ProfileBtn />,
   };
 
-
-  state = {
-    categ:['Restaurant','Garage','Boutique','Saloon','Saloon']
+  constructor(props){
+    super(props);
+    this.state = {
+      categ:['Restaurant','Garage','Boutique','Supermarket','Saloon'],
+      categorySelected:'Restaurant'
+    }
   }
+
+
 
   renderItem = ({ item, index }) => {
     let style = {};
@@ -70,6 +75,11 @@ class HomeScreen extends Component {
 
   keyExtractor = item => String(item.id);
 
+  updateCategoryHandler = (value) => {
+    this.setState({
+      categorySelected:value
+    })
+  }
   render() {
     return (
       // <Box f={1}>
@@ -82,6 +92,8 @@ class HomeScreen extends Component {
         <View style={styles.container}>
           <Horizontalscrollitems
             categ={this.state.categ}
+            categorySelected={this.state.categorySelected}
+            updateCategoryHandler={this.updateCategoryHandler}
           />
         </View>
       </ScrollView>
