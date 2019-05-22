@@ -2,6 +2,7 @@ import React from 'react';
 import { ActivityIndicator, UIManager } from 'react-native';
 import { UtilityThemeProvider, Box } from 'react-native-design-utility';
 import { Provider } from 'mobx-react/native';
+import configureStore from './src/components/Store/config';
 
 import Navigation from './src/screens';
 import { images, tabBarIcons } from './src/constants/images';

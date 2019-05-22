@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^6.3.1",
+    "axios": "^0.18.0",
     "expo": "^29.0.0",
     "expo-linear-gradient": "^4.0.0",
     "mobx": "4.3.2",
@@ -20,6 +21,9 @@
     "react-native": "https://github.com/expo/react-native/archive/sdk-29.0.0.tar.gz",
     "react-native-design-utility": "^0.0.28",
     "react-navigation": "2.11.2",
+    "react-redux": "5.0.7",
+    "redux": "3.7.2",
+    "redux-promise": "0.5.3",
     "ts-pnp": "^1.1.2",
     "wretch": "1.4.1"
   },
