@@ -97,10 +97,6 @@ class HomeScreen extends Component {
           />
         </View>
       </ScrollView>
-      <View>
-        <Text>Near You</Text>
-      </View>
-
     );
   }
 }
