@@ -44,7 +44,7 @@ class HomeScreen extends Component {
   };
 
 
-  this.state = {
+  state = {
     categ:['Restaurant','Garage','Boutique','Saloon','Saloon']
   }
 
