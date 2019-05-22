@@ -52,9 +52,15 @@ class HomeScreen extends Component {
       style.borderLeftColor = theme.color.greyLighter;
     }
     return (
-      <Box w={1 / NUM_COLUMNS} bg="white" h={120} style={style}>
-        <CategoryCard {...item} />
-      </Box>
+      <ScrollView
+        horizontal={true}
+        showsVerticalScrollIndicator={false}
+        style={styles.scrollview}
+      >
+        <Box w={5 / NUM_COLUMNS} style={styles.categoryitems}>
+          <CategoryCard {...item} />
+        </Box>
+      </ScrollView>
     );
   };
 
@@ -67,11 +73,7 @@ class HomeScreen extends Component {
         <Box style={styles.wrapper}>
           <SearchBar />
         </Box>
-      <ScrollView
-        showsVerticalScrollIndicator={false}
-        style={styles.scrollview}
-        contentContainerStyle={styles.scrollViewContent}
-      >
+
         <Box f={1}>
           <FlatList
             data={categories}
@@ -86,7 +88,6 @@ class HomeScreen extends Component {
         <Box>
           <Text>1 Km</Text>
         </Box>
-      </ScrollView>
       </Box>
 
 
@@ -97,15 +98,20 @@ class HomeScreen extends Component {
 export default HomeScreen;
 
 const styles = StyleSheet.create({
+  categoryitems: {
+    marginTop: 50,
+  },
   wrapper: {
     flex: 1,
     backgroundColor: colors.white,
   },
   scrollview: {
-    paddingTop: 10,
+    flex: 1,
+    flexDirection: 'row',
+    paddingTop: 50,
   },
   scrollViewContent: {
-    paddingBottom: 100,
+    paddingBottom: 10,
   },
   categories: {
     marginBottom: 40,
