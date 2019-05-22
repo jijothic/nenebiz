@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { StatusBar, FlatList, ScrollView, View, StyleSheet } from 'react-native';
 import { Box, Text } from 'react-native-design-utility';
+import Horizontalscrollitems from '../components/Horizontalscrollitems';
 
 import CategoryCard from '../components/CategoryCard';
 import { theme } from '../constants/theme';
@@ -74,14 +75,14 @@ class HomeScreen extends Component {
           <SearchBar />
         </Box>
 
-        <Box f={1}>
+        {/* <Box f={1}>
           <FlatList
             data={categories}
             renderItem={this.renderItem}
             keyExtractor={this.keyExtractor}
             numColumns={NUM_COLUMNS}
           />
-        </Box>
+        </Box> */}
         <Box>
           <Text style={styles.heading}>Near You</Text>
         </Box>
