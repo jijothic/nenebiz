@@ -23,12 +23,12 @@ import {
          <View style={styles.titleWrapper}>
             <Text style={styles.title}>{title}</Text>
             <TouchableOpacity style={styles.seeAllBtn}>
+            <Text style={styles.seeAllBtnText}>See all</Text>
               <Ionicons
                 name='ios-arrow-forward'
                 size={18}
                 color={colors.grey}
               />
-              <Text style={styles.seeAllBtnText}>See all</Text>
              </TouchableOpacity>
           </View>
        </View>
