@@ -26,10 +26,8 @@ import {
 
  const styles = StyleSheet.create({
    wrapper: {
-     display; 'flex',
+    display; 'flex',
    },
-
    title: {
-
    },
  });
