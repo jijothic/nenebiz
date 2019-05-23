@@ -39,6 +39,7 @@ import {
           </View>
           <ScrollView
             style={styles.scrollView}
+            contentContainerStyle={{paddingRight: 30}}
             horizontal={true}
             showsHorizontalScrollIndicator={false}
           >
