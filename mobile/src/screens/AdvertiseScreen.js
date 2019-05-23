@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
 import { StatusBar } from 'react-native';
-import { Box, Text } from 'react-native-design-utility';
+import NoAdverts from '../components/NoAdverts'
 
 class AdvertiseScreen extends Component {
-  state = {};
   render() {
     return (
-      <Box f={1} center>
+      <Veiw style={styles.wrapper}>
         <StatusBar barStyle="light-content" />
-        <Text>Notification Screen</Text>
-      </Box>
+        <NoAdverts />
+      </Veiw>
     );
   }
 }
 
 export default AdvertiseScreen;
+
+const style = StyleSheet.create({
+  wrapper: {
+    display: 'flex',
+  }
+});
