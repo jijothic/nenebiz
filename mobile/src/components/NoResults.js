@@ -23,11 +23,11 @@ export default class NoResults extends Component {
             Tap the heart on any home to start saving your favorites here.
           </Text>
         </ScrollView>
-      </View>
-      <View style={styles.footer}>
-        <TouchableHighlight>
-          <Text>Find Businesses</Text>
-        </TouchableHighlight>
+        <View style={styles.footer}>
+          <TouchableHighlight>
+            <Text>Find Businesses</Text>
+          </TouchableHighlight>
+        </View>
       </View>
     );
   }
