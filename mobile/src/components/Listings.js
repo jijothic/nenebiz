@@ -21,8 +21,10 @@ import {
     const { listings } = this.props;
     return listings.map((listing, index) =>{
       return (
-        <TouchableHighlight>
-          <View>
+        <TouchableHighlight
+          style={styles.card}
+        >
+          <View style={styles.cardContent}>
             <Text>{listing.title}</Text>
           </View>
         </TouchableHighlight>
@@ -85,6 +87,16 @@ import {
    scrollView: {
      marginTop: 20,
      marginLeft: 15,
+   },
+   card: {
+     marginRight: 6,
+     marginLeft: 6,
+     width: 155,
+     flexDirection: 'column',
+     minHeight: 100,
+   },
+   cardContent: {
+
    },
 
  });
