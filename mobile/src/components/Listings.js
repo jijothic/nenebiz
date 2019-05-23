@@ -91,7 +91,7 @@ import {
    card: {
      marginRight: 6,
      marginLeft: 6,
-     width: 155,
+     width: 157,
      flexDirection: 'column',
      minHeight: 100,
    },
