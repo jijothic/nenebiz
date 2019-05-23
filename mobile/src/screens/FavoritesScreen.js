@@ -26,6 +26,6 @@ const styles = StyleSheet.create({
     padding: 50,
   },
   scrollView: {
-    height: 100%,
+    height: '100%',
   }
 });
