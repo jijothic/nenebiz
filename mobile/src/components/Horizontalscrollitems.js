@@ -67,7 +67,7 @@ const styles = StyleSheet.create({
     marginLeft: 3,
     color: '#B5B5B5',
     fontSize: 16,
-    fontWeight: 'bold',
+    fontWeight: '600',
   },
   scrollContainer: {
     flex: 1,
