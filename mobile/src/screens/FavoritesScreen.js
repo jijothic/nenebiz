@@ -23,7 +23,6 @@ export default Favoritescreen;
 const styles = StyleSheet.create({
   wrapper: {
     display: 'flex',
-    padding: 50,
   },
   scrollView: {
     height: '100%',
