@@ -38,7 +38,7 @@ import {
             >
               {listing.title}
             </Text>
-            <Text style={styles.listingPrice}>{listing.priceType} {listing.priceType}</Text>
+            <Text style={styles.listingPrice}>{listing.price} {listing.priceType}</Text>
             <Stars
              votes={listing.stars}
              size={12}
@@ -136,7 +136,7 @@ import {
      fontSize: 10,
    },
    listingPrice: {
-     color: colors.green02,
+     color: colors.grey02,
      marginTop: 4,
      marginBottom: 2,
      fontSize: 12,
