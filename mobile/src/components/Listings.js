@@ -30,7 +30,7 @@ import {
               resizeMode="contain"
               source={listing.photo}
             />
-            <Text>{listing.title}</Text>
+            <Text style={styles.listingType}>{listing.title}</Text>
           </View>
         </TouchableHighlight>
       );
@@ -93,6 +93,7 @@ import {
    scrollView: {
      marginTop: 20,
      marginLeft: 15,
+     marginBottom: 40,
    },
    card: {
      marginRight: 6,
@@ -111,5 +112,8 @@ import {
      borderRadius: 8,
      marginBottom: 2,
    },
+   listingType: {
+     fontWeight: '700',
+   }
 
  });
