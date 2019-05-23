@@ -25,10 +25,15 @@ export default class Stars extends Component {
   }
 
   render() {
+    const { votes } = this.props;
+    if (votes === '0') {
+      return <View></View>;
+    }
     return (
       <View style={styles.wrapper}>
         <View style={styles.stars}>
           {this.stars}
+          {votes ? <Text style={styes.votesNumber}>{votes}</Text> : null}
         </View>
       </View>
     );
@@ -46,5 +51,11 @@ const styles = StyleSheet.create ({
   stars: {
     flexDirection: 'row',
     alignItems: 'center',
+  },
+  votesNumber: {
+    fontSize: 11,
+    fontWeight: '600',
+    marginTop: 2,
+    marginLeft: 3,
   },
 });
