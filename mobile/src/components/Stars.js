@@ -16,7 +16,8 @@ export default class Stars extends Component {
        <Ionicons
         name='ios-star'
         size={size}
-        color={starsNumber > i ? color : colors.green02}
+        color={starsNumber > i ? color : colors.grey02}
+        style={styles.star}
       />
      );;
     }
@@ -25,11 +26,25 @@ export default class Stars extends Component {
 
   render() {
     return (
-      <View>
-        <View>
+      <View style={styles.wrapper}>
+        <View style={styles.stars}>
           {this.stars}
         </View>
       </View>
     );
   }
 }
+
+const styles = StyleSheet.create ({
+  wrapper: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  star: {
+    marginRight: 1,
+  },
+  stars: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+});
