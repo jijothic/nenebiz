@@ -125,4 +125,6 @@ const Listings = [
       }
     ]
   }
-]
+];
+
+export default listings;
