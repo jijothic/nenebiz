@@ -38,7 +38,11 @@ import {
             >
               {listing.title}
             </Text>
-            <Stars votes={listing.stars} />
+            <Stars
+             votes={listing.stars}
+             size={10}
+             color={colors.yellow}
+            />
           </View>
         </TouchableHighlight>
       );

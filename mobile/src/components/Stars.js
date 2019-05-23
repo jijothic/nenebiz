@@ -8,13 +8,15 @@ import colors from '../constants/colors';
 
 export default class Stars extends Component {
   get stars() {
-    const { votes } = this.props;
+    const { votes, size, color } = this.props;
     const starsNumber = parseInt(votes);
     const starElements = [];
     for (let i = 0; i < 5; i++) {
      starElements.push(
        <Ionicons
         name='ios-star'
+        size={size}
+        color={color}
       />
      );;
     }
