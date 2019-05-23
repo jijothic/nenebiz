@@ -15,8 +15,21 @@ import {
 
  export default class Listings extends Component {
    render() {
+     const { title } = this.props;
      return (
-       <Text>Hello </Text>
+       <View style={styles.wrapper}>
+        <Text style={styles.title}>{title}</Text>
+       </View>
      );
    }
  }
+
+ const styles = StyleSheet.create({
+   wrapper: {
+     display; 'flex',
+   },
+
+   title: {
+
+   },
+ });
