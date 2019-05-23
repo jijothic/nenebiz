@@ -13,7 +13,7 @@ import {
  import colors from '../constants/colors';
 
 
- export default class Listings extends component {
+ export default class Listings extends Component {
    render() {
      return (
        <Text>Hello </Text>
