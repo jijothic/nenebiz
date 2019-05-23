@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { StatusBar } from 'react-native';
+import { StatusBar, View, Text, StyleSheet } from 'react-native';
+
 import NoAdverts from '../components/NoAdverts'
 
 class AdvertiseScreen extends Component {
