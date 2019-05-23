@@ -6,27 +6,32 @@ export default class NoResults extends Component {
   render() {
     return (
       <View>
-        <Text
-         style={styles.heading}
-        >
-          Favourites
-        </Text>
-        <Text
-         style={styles.description}
-        >
-          Not every day is filled with adventures, but you can start planning for the next one.
-        </Text>
-        <Text
-         style={styles.description}
-        >
-          Tap the heart on any home to start saving your favorites here.
-        </Text>
+        <ScrollView style={styles.scrollView}>
+          <Text
+          style={styles.heading}
+          >
+            Favourites
+          </Text>
+          <Text
+          style={styles.description}
+          >
+            Not every day is filled with adventures, but you can start planning for the next one.
+          </Text>
+          <Text
+          style={styles.description}
+          >
+            Tap the heart on any home to start saving your favorites here.
+          </Text>
+        </ScrollView>
       </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
+  scrollView: {
+    height: '100%',
+  },
   heading: {
     fontSize: 30,
     fontWeight: '600',

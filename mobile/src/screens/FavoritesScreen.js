@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, ScrollView, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import { StatusBar } from 'react-native';
 import { Box } from 'react-native-design-utility';
 
@@ -9,10 +9,8 @@ class Favoritescreen extends Component {
   render() {
     return (
       <View style={styles.wrapper}>
-        <ScrollView style={styles.scrollView}>
-          <StatusBar barStyle="light-content" />
-            <NoResults />
-        </ScrollView>
+        <StatusBar barStyle="light-content" />
+        <NoResults />
       </View>
     );
   }
@@ -24,7 +22,4 @@ const styles = StyleSheet.create({
   wrapper: {
     display: 'flex',
   },
-  scrollView: {
-    height: '100%',
-  }
 });
