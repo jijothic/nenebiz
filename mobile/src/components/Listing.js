@@ -62,7 +62,7 @@ import {
      paddingRight: 21,
    },
    title: {
-     colors.grey,
+     colors: colors.grey,
    },
    seeAllBtn: {
      marginTop: 2,
