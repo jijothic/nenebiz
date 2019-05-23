@@ -39,6 +39,8 @@ import {
      flexDirection: 'row',
      alignItems: 'center',
      justifyContent: 'space-between',
+     paddingLeft: 21,
+     paddingRight: 21,
    },
    title: {
    },
