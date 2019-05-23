@@ -13,6 +13,7 @@ import {
  } from 'react-native';
 
  import colors from '../constants/colors';
+ import Stars from '../components/Stars';
 
 
  export default class Listings extends Component {
@@ -37,6 +38,7 @@ import {
             >
               {listing.title}
             </Text>
+            <Stars votes={listing.stars} />
           </View>
         </TouchableHighlight>
       );
