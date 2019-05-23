@@ -103,5 +103,12 @@ import {
    cardContent: {
 
    },
+   image: {
+     width: undefined,
+     flex: 1,
+     height: 100,
+     borderRadius: 8,
+     marginBottom: 2,
+   },
 
  });
