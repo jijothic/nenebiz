@@ -62,6 +62,7 @@ import {
      paddingRight: 21,
    },
    title: {
+     colors.grey,
    },
    seeAllBtn: {
      marginTop: 2,
@@ -74,6 +75,8 @@ import {
      marginRight: 5,
    },
    scrollView: {
+     marginTop: 20,
+     marginLeft: 15,
 
    },
 
