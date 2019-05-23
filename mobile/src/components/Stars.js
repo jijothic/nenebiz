@@ -25,7 +25,6 @@ export default class Stars extends Component {
       <View>
         <View>
           {this.stars}
-          {starsNumber}
         </View>
       </View>
     );
