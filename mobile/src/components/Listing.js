@@ -19,13 +19,15 @@ import {
 
   renderListings(){
     const { listings } = this.props;
-    return (
-      <TouchableOpacity>
-        <View>
-          <Text>{listing.title}</Text>
-        </View>
-      </TouchableOpacity>
-    );
+    return listings.map((listings, index) =>{
+      return (
+        <TouchableOpacity>
+          <View>
+            <Text>{listing.title}</Text>
+          </View>
+        </TouchableOpacity>
+      );
+    });
   }
    render() {
      const { title } = this.props;
