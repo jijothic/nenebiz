@@ -115,7 +115,7 @@ import {
    listingTitle: {
      fontSize: 14,
      fontWeight: '700',
-     color; colors.grey,
+     color: colors.grey,
      marginTop: 2,
    },
    listingType: {
