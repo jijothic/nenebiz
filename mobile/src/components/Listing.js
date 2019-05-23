@@ -87,7 +87,6 @@ import {
    scrollView: {
      marginTop: 20,
      marginLeft: 15,
-
    },
 
  });
