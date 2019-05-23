@@ -16,6 +16,11 @@ export default class NoResults extends Component {
         >
           Not every day is filled with adventures, but you can start planning for the next one.
         </Text>
+        <Text
+         style={styles.description}
+        >
+          Tap the heart on any home to start saving your favorites here.
+        </Text>
       </View>
     );
   }
@@ -30,5 +35,12 @@ const styles = StyleSheet.create({
     paddingLeft: 20,
     paddingRight: 20,
   },
+  description: {
+    fontSize: 16,
+    lineHeight: 24,
+    color: colors.black01,
+    paddingLeft: 20,
+    paddingRight: 20,
+  }
 });
 
