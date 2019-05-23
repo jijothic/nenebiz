@@ -20,6 +20,7 @@ export default class Stars extends Component {
       />
      );;
     }
+    return starElements;
   }
 
   render() {
