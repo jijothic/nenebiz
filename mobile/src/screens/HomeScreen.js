@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { StatusBar, FlatList, ScrollView, View, StyleSheet } from 'react-native';
 import { Box, Text } from 'react-native-design-utility';
 import Horizontalscrollitems from '../components/Horizontalscrollitems';
-import Listings from '../components/Listings/Listings';
+import Listings from '../components/Listings';
 
 import CategoryCard from '../components/CategoryCard';
 import { theme } from '../constants/theme';
