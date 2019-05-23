@@ -12,7 +12,7 @@ import SearchBar from '../commons/SearchBar';
 import Categories from '../components/Categories';
 import colors from '../constants/colors';
 import categoryList from '../constants/categories';
-import listings from '../data/listing';
+import listings from '../data/listings';
 
 const categories = [
   {
