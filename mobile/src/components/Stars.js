@@ -16,7 +16,7 @@ export default class Stars extends Component {
        <Ionicons
         name='ios-star'
         size={size}
-        color={color}
+        color={starsNumber > i ? color : colors.green02}
       />
      );;
     }
