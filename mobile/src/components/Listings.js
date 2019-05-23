@@ -134,6 +134,13 @@ import {
    listingType: {
      fontWeight: '700',
      fontSize: 10,
+   },
+   listingPrice: {
+     color: colors.green02,
+     marginTop: 4,
+     marginBottom: 2,
+     fontSize: 12,
+     fontWeight: '600',
    }
 
  });
