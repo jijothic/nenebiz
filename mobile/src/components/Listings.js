@@ -30,7 +30,7 @@ import {
               resizeMode="contain"
               source={listing.photo}
             />
-            <Text style={styles.listingType}>{listing.title}</Text>
+            <Text style={styles.listingTitle}>{listing.title}</Text>
           </View>
         </TouchableHighlight>
       );
@@ -112,8 +112,15 @@ import {
      borderRadius: 8,
      marginBottom: 2,
    },
+   listingTitle: {
+     fontSize: 14,
+     fontWeight: '700',
+     color; colors.grey,
+     marginTop: 2,
+   },
    listingType: {
      fontWeight: '700',
+     fontSize: 10,
    }
 
  });
