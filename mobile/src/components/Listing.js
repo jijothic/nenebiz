@@ -16,6 +16,10 @@ import {
 
 
  export default class Listings extends Component {
+
+  renderListings(){
+    <Text>Empty</Text>
+  }
    render() {
      const { title } = this.props;
      return (
@@ -31,6 +35,13 @@ import {
               />
              </TouchableOpacity>
           </View>
+          <ScrollView
+            style={styles.scrollView}
+            horizontal={true}
+            showsHorizontalScrollIndicator={false}
+          >
+            {this.renderListings()}
+          </ScrollView>
        </View>
      );
    }
@@ -59,5 +70,9 @@ import {
    seeAllBtnText: {
      color: colors.grey,
      marginRight: 5,
-   }
+   },
+   scrollView: {
+
+   },
+
  });
