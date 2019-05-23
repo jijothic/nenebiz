@@ -107,7 +107,7 @@ import {
      width: undefined,
      flex: 1,
      height: 100,
-     borderRadius: 8,
+     borderRadius: 7,
      marginBottom: 2,
    },
 
