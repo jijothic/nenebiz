@@ -24,7 +24,7 @@ import {
             <Text style={styles.title}>{title}</Text>
             <TouchableOpacity style={styles.seeAllBtn}>
               <Ionicons
-                name='arrow-forward'
+                name='ios-arrow-forward'
                 size={18}
                 color={colors.grey}
               />
