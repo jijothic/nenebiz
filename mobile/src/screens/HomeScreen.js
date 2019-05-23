@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { StatusBar, FlatList, ScrollView, View, StyleSheet } from 'react-native';
 import { Box, Text } from 'react-native-design-utility';
 import Horizontalscrollitems from '../components/Horizontalscrollitems';
+import Listings from '../components/Listing';
 
 import CategoryCard from '../components/CategoryCard';
 import { theme } from '../constants/theme';
@@ -96,9 +97,7 @@ class HomeScreen extends Component {
             updateCategoryHandler={this.updateCategoryHandler}
           />
         </View>
-        <View>
-        <Text>Near You</Text>
-      </View>
+        <Listings />
       </ScrollView>
     );
   }
