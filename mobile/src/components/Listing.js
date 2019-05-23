@@ -18,8 +18,13 @@ import {
  export default class Listings extends Component {
 
   renderListings(){
+    const { listings } = this.props;
     return (
-      <Text>Empty</Text>
+      <TouchableOpacity>
+        <View>
+          <Text>{listings.title}</Text>
+        </View>
+      </TouchableOpacity>
     );
   }
    render() {
