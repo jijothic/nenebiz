@@ -42,7 +42,7 @@ import {
             <Stars
              votes={listing.stars}
              size={12}
-             color={colors.yellow}
+             color={colors.green}
             />
           </View>
         </TouchableHighlight>
