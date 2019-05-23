@@ -35,6 +35,7 @@ const styles = StyleSheet.create({
   heading: {
     fontSize: 30,
     fontWeight: '600',
+    marginTop: 10,
     marginBottom: 40,
     color: colors.black01,
     paddingLeft: 20,
