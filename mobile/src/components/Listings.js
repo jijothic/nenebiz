@@ -38,6 +38,7 @@ import {
             >
               {listing.title}
             </Text>
+            <Text style={styles.listingPrice}>{listing.priceType} {listing.priceType}</Text>
             <Stars
              votes={listing.stars}
              size={12}
