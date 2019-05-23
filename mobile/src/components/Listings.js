@@ -19,7 +19,7 @@ import {
 
   renderListings(){
     const { listings } = this.props;
-    return listings.map((listings, index) =>{
+    return listings.map((listing, index) =>{
       return (
         <TouchableHighlight>
           <View>
