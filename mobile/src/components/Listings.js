@@ -30,7 +30,13 @@ import {
               resizeMode="contain"
               source={listing.photo}
             />
-            <Text style={styles.listingTitle}>{listing.title}</Text>
+            <Text style={styles.listingType}>{listing.type}</Text>
+            <Text
+             style={styles.listingTitle}
+             numberOfLines={2}
+            >
+              {listing.title}
+            </Text>
           </View>
         </TouchableHighlight>
       );
