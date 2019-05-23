@@ -21,11 +21,11 @@ import {
     const { listings } = this.props;
     return listings.map((listings, index) =>{
       return (
-        <TouchableOpacity>
+        <TouchableHighlight>
           <View>
             <Text>{listing.title}</Text>
           </View>
-        </TouchableOpacity>
+        </TouchableHighlight>
       );
     });
   }
