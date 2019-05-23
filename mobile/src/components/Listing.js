@@ -8,6 +8,7 @@ import {
   TouchableHighlight,
   Image,
   ScrollView,
+  StyleSheet,
  } from 'react-native';
 
  import colors from '../constants/colors';
