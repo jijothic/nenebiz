@@ -1,19 +1,31 @@
 import React, { Component } from 'react';
+import { View, Text, ScrollView } from 'react-native';
 import { StatusBar } from 'react-native';
-import { Box, Text } from 'react-native-design-utility';
+import { Box } from 'react-native-design-utility';
 
 import NoResults from '../components/NoResults';
 
 class Favoritescreen extends Component {
-  state = {};
   render() {
     return (
-      <Box f={1} center>
-        <StatusBar barStyle="light-content" />
-        <NoResults />
-      </Box>
+      <View style={styles.wrapper}>
+        <ScrollView style={styles.scrollView}>
+          <StatusBar barStyle="light-content" />
+            <NoResults />
+        </ScrollView>
+      </View>
     );
   }
 }
 
 export default Favoritescreen;
+
+const styles = StyleSheet.create({
+  wrapper: {
+    display: 'flex',
+    padding: 50,
+  },
+  scrollView: {
+    height: 100%,
+  }
+});
