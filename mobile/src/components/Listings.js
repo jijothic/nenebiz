@@ -25,6 +25,11 @@ import {
           style={styles.card}
         >
           <View style={styles.cardContent}>
+            <Image
+              style={styles.image}
+              resizeMode="contain"
+              source={listing.photo}
+            />
             <Text>{listing.title}</Text>
           </View>
         </TouchableHighlight>
