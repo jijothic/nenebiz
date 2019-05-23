@@ -1,3 +1,5 @@
+import colors from '../constants/colors'
+
 const listings = [
   {
   	title: 'Experiences',
@@ -13,7 +15,7 @@ const listings = [
         price: 60,
         priceType: 'per person',
         stars: 29,
-        color: colors.gray04,
+        color: colors.gray01,
   	  },
   	  {
   	  	id: 2,
@@ -24,7 +26,7 @@ const listings = [
         price: 70,
         priceType: 'per person',
         stars: 4,
-        color: colors.darkOrange,
+        color: colors.yellow,
   	  },
   	  {
   	  	id: 3,
@@ -46,7 +48,7 @@ const listings = [
         price: 57,
         priceType: 'per person',
         stars: 70,
-        color: colors.brown01,
+        color: colors.green,
   	  },
   	  {
   	  	id: 5,
@@ -57,7 +59,7 @@ const listings = [
         price: 61,
         priceType: 'per person',
         stars: 66,
-        color: colors.blue,
+        color: colors.grey,
   	  },
   	  {
   	  	id: 6,
@@ -68,7 +70,7 @@ const listings = [
         price: 55,
         priceType: 'per person',
         stars: 15,
-        color: colors.brown02,
+        color: colors.grey,
   	  }
   	]
   },
@@ -97,7 +99,7 @@ const listings = [
         price: 69,
         priceType: 'per night',
         stars: 119,
-        color: colors.brown01,
+        color: colors.grey01,
   	  },
    	  {
   	  	id: 9,
@@ -108,7 +110,7 @@ const listings = [
         price: 152,
         priceType: 'per night',
         stars: 320,
-        color: colors.darkOrange,
+        color: colors.green01,
   	  },
    	  {
   	  	id: 10,
@@ -119,7 +121,7 @@ const listings = [
         price: 116,
         priceType: 'per night',
         stars: 300,
-        color: colors.gray04,
+        color: colors.gray01,
   	  },
    	  {
   	  	id: 11,
@@ -147,7 +149,7 @@ const listings = [
   	    price: '30',
   	    priceType: 'per person',
   	    stars: 0,
-        color: colors.blue,
+        color: colors.green03,
   	  },
   	  {
   	    id: 13,
@@ -167,7 +169,7 @@ const listings = [
   	    price: '34',
   	    priceType: 'per person',
   	    stars: 0,
-        color: colors.brown01,
+        color: colors.black,
   	  },
   	  {
   	    id: 15,
@@ -187,7 +189,7 @@ const listings = [
         price: '46',
         priceType: 'per person',
         stars: 0,
-        color: colors.gray04,
+        color: colors.black01,
       }
   	]
   }
