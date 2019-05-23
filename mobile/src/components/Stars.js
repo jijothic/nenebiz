@@ -10,7 +10,7 @@ export default class Stars extends Component {
   get stars() {
     const { votes } = this.props;
     const starsNumber = parseInt(votes);
-    const Elements = [];
+    const starElements = [];
     for (let i = 0; i < 5; i++) {
      starElements.push(
        <Ionicons
