@@ -12,6 +12,7 @@ import SearchBar from '../commons/SearchBar';
 import Categories from '../components/Categories';
 import colors from '../constants/colors';
 import categoryList from '../constants/categories';
+import listings from '../data/listing';
 
 const categories = [
   {
@@ -81,6 +82,10 @@ class HomeScreen extends Component {
       categorySelected:value
     })
   }
+
+  renderListings () {
+    return <Listings />
+  }
   render() {
     return (
       // <Box f={1}>
@@ -97,7 +102,7 @@ class HomeScreen extends Component {
             updateCategoryHandler={this.updateCategoryHandler}
           />
         </View>
-        <Listings />
+        {this.renderListings()}
       </ScrollView>
     );
   }
