@@ -24,6 +24,11 @@ export default class NoResults extends Component {
           </Text>
         </ScrollView>
       </View>
+      <View style={styles.footer}>
+        <TouchableHighlight>
+          <Text>Find Businesses</Text>
+        </TouchableHighlight>
+      </View>
     );
   }
 }
@@ -47,6 +52,16 @@ const styles = StyleSheet.create({
     color: colors.black01,
     paddingLeft: 20,
     paddingRight: 20,
-  }
+  },
+  footer: {
+    position: 'absolute',
+  	width: '100%',
+  	height: 80,
+  	bottom: 0,
+  	borderTopWidth: 1,
+  	borderTopColor: colors.gray05,
+  	paddingLeft: 20,
+  	paddingRight: 20,
+  },
 });
 
