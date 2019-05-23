@@ -38,7 +38,7 @@ import {
      display: 'flex',
      flexDirection: 'row',
      alignItems: 'center',
-     justifyContent: 'center',
+     justifyContent: 'space-between',
    },
    title: {
    },
