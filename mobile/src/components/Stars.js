@@ -26,7 +26,7 @@ export default class Stars extends Component {
 
   render() {
     const { votes } = this.props;
-    if (votes === '0') {
+    if (!this.stars.length) {
       return <View></View>;
     }
     return (
