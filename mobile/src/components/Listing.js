@@ -19,10 +19,12 @@ import {
      const { title } = this.props;
      return (
        <View style={styles.wrapper}>
-        <Text style={styles.title}>{title}</Text>
-        <TouchableHighlight style={styles.seeAllBtn}>
-          <Text style={styles.seeAllBtnText}>See all</Text>
-        </TouchableHighlight>
+         <View style={styles.titleWrapper}>
+            <Text style={styles.title}>{title}</Text>
+            <TouchableHighlight style={styles.seeAllBtn}>
+              <Text style={styles.seeAllBtnText}>See all</Text>
+             </TouchableHighlight>
+          </View>
        </View>
      );
    }
@@ -31,6 +33,12 @@ import {
  const styles = StyleSheet.create({
    wrapper: {
     display: 'flex',
+   },
+   titleWrapper: {
+     display: 'flex',
+     flexDirection: 'row',
+     alignItems: 'center',
+     justifyContent: 'center',
    },
    title: {
    },
