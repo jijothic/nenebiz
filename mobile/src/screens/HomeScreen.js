@@ -83,7 +83,7 @@ class HomeScreen extends Component {
     })
   }
 
-  renderListings () {
+  renderListings() {
     return listings.map((listing, index) =>{
       return (
         <View
