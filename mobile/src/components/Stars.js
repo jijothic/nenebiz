@@ -33,7 +33,7 @@ export default class Stars extends Component {
       <View style={styles.wrapper}>
         <View style={styles.stars}>
           {this.stars}
-          {votes ? <Text style={styes.votesNumber}>{votes}</Text> : null}
+          {votes ? <Text style={stlyes.votesNumber}>{votes}</Text> : null}
         </View>
       </View>
     );
