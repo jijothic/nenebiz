@@ -18,7 +18,9 @@ import {
  export default class Listings extends Component {
 
   renderListings(){
-    <Text>Empty</Text>
+    return (
+      <Text>Empty</Text>
+    );
   }
    render() {
      const { title } = this.props;
