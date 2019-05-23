@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { FontAwesome } from '@expo/vector-icons';
+import { Ionicons } from '@expo/vector-icons';
+
 import {
   View,
   Text,
@@ -22,8 +23,8 @@ import {
          <View style={styles.titleWrapper}>
             <Text style={styles.title}>{title}</Text>
             <TouchableOpacity style={styles.seeAllBtn}>
-              <Icon
-                name='angle-right'
+              <Ionicons
+                name='arrow-forward'
                 size={18}
                 color={colors.grey}
               />
