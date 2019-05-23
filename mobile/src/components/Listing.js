@@ -22,7 +22,7 @@ import {
     return (
       <TouchableOpacity>
         <View>
-          <Text>{listings.title}</Text>
+          <Text>{listing.title}</Text>
         </View>
       </TouchableOpacity>
     );
