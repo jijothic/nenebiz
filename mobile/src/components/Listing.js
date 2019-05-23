@@ -47,8 +47,6 @@ import {
           <ScrollView
             style={styles.scrollView}
             contentContainerStyle={{paddingRight: 30}}
-            decelerationRate={0}
-            snapToInterval={200}
             horizontal={true}
             showsHorizontalScrollIndicator={false}
           >
