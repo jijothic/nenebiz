@@ -89,7 +89,7 @@ class HomeScreen extends Component {
         <View
           key={`listing-${index}`}
         >
-          <Listings
+          <Listing
             key={`listing-item-${index}`}
             title={listing.title}
             boldTitle={listing.boldTitle}
