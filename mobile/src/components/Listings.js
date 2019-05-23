@@ -40,7 +40,7 @@ import {
             </Text>
             <Stars
              votes={listing.stars}
-             size={10}
+             size={12}
              color={colors.yellow}
             />
           </View>
