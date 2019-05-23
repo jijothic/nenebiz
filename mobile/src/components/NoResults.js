@@ -24,8 +24,8 @@ export default class NoResults extends Component {
           </Text>
         </ScrollView>
         <View style={styles.footer}>
-          <TouchableHighlight>
-            <Text>Find Businesses</Text>
+          <TouchableHighlight style={styles.findBusiness}>
+            <Text style={styles.findBusinessText}>Find Businesses</Text>
           </TouchableHighlight>
         </View>
       </View>
@@ -59,9 +59,21 @@ const styles = StyleSheet.create({
   	height: 80,
   	bottom: 0,
   	borderTopWidth: 1,
-  	borderTopColor: colors.gray05,
+  	borderTopColor: colors.grey03,
   	paddingLeft: 20,
   	paddingRight: 20,
+  },
+  findBusiness: {
+    paddingTop: 15,
+  	paddingBottom: 15,
+  	marginTop: 16,
+  	borderRadius: 3,
+  	backgroundColor: colors.green01,
+  },
+  findBusinessText: {
+    color: colors.white,
+    textAlign: 'center',
+    fontWeight: '600',
   },
 });
 
