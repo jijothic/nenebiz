@@ -21,9 +21,14 @@ import {
        <View style={styles.wrapper}>
          <View style={styles.titleWrapper}>
             <Text style={styles.title}>{title}</Text>
-            <TouchableHighlight style={styles.seeAllBtn}>
+            <TouchableOpacity style={styles.seeAllBtn}>
+              <Icon
+                name='angle-right'
+                size={18}
+                color={colors.grey}
+              />
               <Text style={styles.seeAllBtnText}>See all</Text>
-             </TouchableHighlight>
+             </TouchableOpacity>
           </View>
        </View>
      );
