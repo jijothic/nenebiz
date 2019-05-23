@@ -6,10 +6,10 @@ import NoAdverts from '../components/NoAdverts'
 class AdvertiseScreen extends Component {
   render() {
     return (
-      <Veiw style={styles.wrapper}>
+      <View style={styles.wrapper}>
         <StatusBar barStyle="light-content" />
         <NoAdverts />
-      </Veiw>
+      </View>
     );
   }
 }
