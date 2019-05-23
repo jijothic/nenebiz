@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View,Text,ScrollView, TouchableHighlight, StyleSheet } from 'react-native';
+import { View,Text,ScrollView, TouchableOpacity, StyleSheet } from 'react-native';
 import colors from '../constants/colors'
 
 export default class NoResults extends Component {
@@ -24,9 +24,9 @@ export default class NoResults extends Component {
           </Text>
         </ScrollView>
         <View style={styles.footer}>
-          <TouchableHighlight style={styles.findBusiness}>
+          <TouchableOpacity style={styles.findBusiness}>
             <Text style={styles.findBusinessText}>Find Businesses</Text>
-          </TouchableHighlight>
+          </TouchableOpacity>
         </View>
       </View>
     );
