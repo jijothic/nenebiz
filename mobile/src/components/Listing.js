@@ -20,6 +20,9 @@ import {
      return (
        <View style={styles.wrapper}>
         <Text style={styles.title}>{title}</Text>
+        <TouchableHighlight style={styles.seeAllBtn}>
+          <Text style={styles.seeAllBtnText}>See all</Text>
+        </TouchableHighlight>
        </View>
      );
    }
@@ -31,4 +34,14 @@ import {
    },
    title: {
    },
+   seeAllBtn: {
+     marginTop: 2,
+     flexDirection: 'row',
+     alignItems: 'center',
+     justifyContent: 'space-between',
+   },
+   seeAllBtnText: {
+     color: colors.grey,
+     marginRight: 5,
+   }
  });
