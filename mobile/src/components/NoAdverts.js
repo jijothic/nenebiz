@@ -53,8 +53,6 @@ export default class NoAdverts extends Component {
            containerStyle={{ height: 100 }}
            multiline
            />
-
-
         </ScrollView>
         <View style={styles.footer}>
           <TouchableOpacity style={styles.findBusiness}>
