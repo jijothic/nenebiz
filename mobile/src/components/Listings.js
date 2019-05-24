@@ -116,7 +116,6 @@ import {
      minHeight: 100,
    },
    cardContent: {
-    justifyContent: 'space-between',
    },
    image: {
      width: undefined,
