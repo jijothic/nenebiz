@@ -28,10 +28,20 @@ export default class NoAdverts extends Component {
            placeholder="Ad Budget"
            editable={false}
           />
-          <Input
-           placeholder="Prefered Time"
-           editable={false}
-          />
+          <Box dir='row'>
+            <Box f={1}>
+              <Input
+              placeholder="Prefered Time"
+              editable={false}
+              />
+            </Box>
+            <Box f={1}>
+              <Input
+              placeholder="Days eg. 56..."
+              editable={false}
+              />
+            </Box>
+            </Box>
           <Input
            placeholder="Name of Business - Ridirect"
            editable={false}
@@ -39,6 +49,8 @@ export default class NoAdverts extends Component {
           <Input
            placeholder="Ad Caption"
            editable={false}
+           containerStyle={{ height: 100 }}
+           multiline
            />
 
 
