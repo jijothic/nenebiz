@@ -130,12 +130,12 @@ import {
      fontWeight: '700',
      color: colors.grey,
      marginTop: 2,
+     justifyContent: 'space-between',
    },
    listingType: {
      fontWeight: '700',
      fontSize: 10,
-     alignItems: 'center',
-     justifyContent: 'space-between',
+
    },
    listingPrice: {
      color: colors.grey02,
