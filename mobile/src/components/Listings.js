@@ -116,7 +116,6 @@ import {
      minHeight: 100,
    },
    cardContent: {
-    alignItems: 'center',
     justifyContent: 'space-between',
    },
    image: {
