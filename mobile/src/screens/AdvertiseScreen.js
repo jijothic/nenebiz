@@ -10,6 +10,7 @@ class AdvertiseScreen extends Component {
         <StatusBar barStyle="light-content" />
         <NoAdverts />
       </View>
+    );
   }
 }
 
