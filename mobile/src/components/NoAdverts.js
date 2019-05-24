@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { View,Text,ScrollView, TouchableOpacity, StyleSheet } from 'react-native';
+import { Box } from 'react-native-design-utility';
 
 import Input from '../commons/Input';
 import colors from '../constants/colors'
