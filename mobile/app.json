@@ -26,6 +26,9 @@
     "ios": {
       "supportsTablet": true
     },
+    "android": {
+      "package": "com.nenebiz.nenebizapp"
+    },
     "facebookAppId": "712580395823223",
     "facebookScheme": "fb712580395823223",
     "facebookDisplayName": "nenebiz",
