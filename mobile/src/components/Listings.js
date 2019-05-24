@@ -116,7 +116,6 @@ import {
      minHeight: 100,
    },
    cardContent: {
-    flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
    },
