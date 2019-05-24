@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import { View,Text,ScrollView, TouchableOpacity, StyleSheet, TextInput } from 'react-native';
+import { View,Text,ScrollView, TouchableOpacity, StyleSheet } from 'react-native';
+
+import Input from '../commons/Input';
 import colors from '../constants/colors'
 
 export default class NoAdverts extends Component {
@@ -22,10 +24,10 @@ export default class NoAdverts extends Component {
           >
             Start under 5 minutes and make your business grow.
           </Text>
-          <TextInput placeholder="Ad Budget" />
-          <TextInput placeholder="Prefered Time" />
-          <TextInput placeholder="Name of Business - Ridirect" />
-          <TextInput placeholder="Ad Caption" />
+          <Input placeholder="Ad Budget" />
+          <Input placeholder="Prefered Time" />
+          <Input placeholder="Name of Business - Ridirect" />
+          <Input placeholder="Ad Caption" />
 
 
         </ScrollView>
