@@ -130,11 +130,17 @@ import {
      fontWeight: '700',
      color: colors.grey,
      marginTop: 2,
+     flexDirection: 'row',
+     alignItems: 'center',
      justifyContent: 'space-between',
+
    },
    listingType: {
      fontWeight: '700',
      fontSize: 10,
+     flexDirection: 'row',
+     alignItems: 'center',
+     justifyContent: 'space-between',
 
    },
    listingPrice: {
@@ -143,6 +149,9 @@ import {
      marginBottom: 2,
      fontSize: 12,
      fontWeight: '600',
+     flexDirection: 'row',
+     alignItems: 'center',
+     justifyContent: 'space-between',
    }
 
  });
