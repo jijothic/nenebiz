@@ -16,7 +16,7 @@ class AdvertiseScreen extends Component {
 
 export default AdvertiseScreen;
 
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
   wrapper: {
     display: 'flex',
   }
