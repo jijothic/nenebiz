@@ -22,6 +22,12 @@ export default class NoAdverts extends Component {
           >
             Start under 5 minutes and make your business grow.
           </Text>
+          <TextInput placeholder="Ad Budget" />
+          <TextInput placeholder="Prefered Time" />
+          <TextInput placeholder="Name of Business - Ridirect" />
+          <TextInput placeholder="Ad Caption" />
+
+
         </ScrollView>
         <View style={styles.footer}>
           <TouchableOpacity style={styles.findBusiness}>
