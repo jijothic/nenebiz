@@ -56,14 +56,14 @@ import {
        <View style={styles.wrapper}>
          <View style={styles.titleWrapper}>
             <Text style={[titleStyle, styles.title]}>{title}</Text>
-            <TouchableOpacity style={styles.seeAllBtn}>
+            {/* <TouchableOpacity style={styles.seeAllBtn}>
             <Text style={styles.seeAllBtnText}>See all</Text>
               <Ionicons
                 name='ios-arrow-forward'
                 size={18}
                 color={colors.grey}
               />
-             </TouchableOpacity>
+             </TouchableOpacity> */}
           </View>
           <ScrollView
             style={styles.scrollView}
