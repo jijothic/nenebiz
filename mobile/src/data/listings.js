@@ -2,7 +2,7 @@ import colors from '../constants/colors'
 
 const listings = [
   {
-  	title: 'Experiences',
+  	title: 'Restaurants',
   	boldTitle: false,
   	showAddToFav: true,
   	listings: [
@@ -75,7 +75,7 @@ const listings = [
   	]
   },
   {
-  	title: 'Homes',
+  	title: 'Botiques',
   	boldTitle: false,
   	showAddToFav: true,
   	listings: [
@@ -137,7 +137,7 @@ const listings = [
   	]
   },
   {
-  	title: 'Popular Reservations',
+  	title: 'Popular Saloon',
   	boldTitle: true,
   	showAddToFav: false,
   	listings: [
