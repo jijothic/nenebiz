@@ -129,6 +129,7 @@ import {
      fontWeight: '700',
      color: colors.black02,
      marginTop: 2,
+     flex: 1,
    },
    listingType: {
      fontWeight: '700',
