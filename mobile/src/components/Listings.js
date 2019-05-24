@@ -127,7 +127,7 @@ import {
    listingTitle: {
      fontSize: 14,
      fontWeight: '700',
-     color: colors.grey,
+     color: colors.black02,
      marginTop: 2,
    },
    listingType: {
@@ -135,7 +135,7 @@ import {
      fontSize: 10,
    },
    listingPrice: {
-     color: colors.grey02,
+     color: colors.black02,
      marginTop: 4,
      marginBottom: 2,
      fontSize: 12,
