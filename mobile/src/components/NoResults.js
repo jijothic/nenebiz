@@ -15,7 +15,7 @@ export default class NoResults extends Component {
           <Text
           style={styles.description}
           >
-            Not every day is filled with adventures, but you can start planning for the next one.
+            Add your favourites Biz
           </Text>
           <Text
           style={styles.description}
