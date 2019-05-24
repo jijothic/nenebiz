@@ -134,6 +134,9 @@ import {
    listingType: {
      fontWeight: '700',
      fontSize: 10,
+     flexDirection: 'row',
+     alignItems: 'center',
+     justifyContent: 'space-between',
    },
    listingPrice: {
      color: colors.grey02,
