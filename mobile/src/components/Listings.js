@@ -68,7 +68,7 @@ import {
           <ScrollView
             style={styles.scrollView}
             contentContainerStyle={{paddingRight: 30}}
-            horizontal={true}
+            horizontal={false}
             showsHorizontalScrollIndicator={false}
           >
             {this.renderListings()}
