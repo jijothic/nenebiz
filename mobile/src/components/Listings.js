@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Ionicons } from '@expo/vector-icons';
+import { Box } from 'react-native-design-utility';
 
 import {
   View,
@@ -26,24 +27,31 @@ import {
           style={styles.card}
         >
           <View style={styles.cardContent}>
-            <Image
-              style={styles.image}
-              resizeMode="contain"
-              source={listing.photo}
-            />
-            <Text style={styles.listingType}>{listing.type}</Text>
-            <Text
-             style={styles.listingTitle}
-             numberOfLines={2}
-            >
+            <Box dir='row'>
+              <Box f={1}>
+                <Image
+                  style={styles.image}
+                  resizeMode="contain"
+                  source={listing.photo}
+                />
+              </Box>
+              <Box f={1}>
+                <Text style={styles.listingType}>{listing.type}</Text>
+                <Text
+                style={styles.listingTitle}
+                numberOfLines={2}
+                >
 
-            </Text>
-            <Text style={styles.listingPrice}>{listing.price} {listing.priceType}</Text>
-            <Stars
-             votes={listing.stars}
-             size={12}
-             color={colors.green}
-            />
+                </Text>
+                <Text style={styles.listingPrice}>{listing.price} {listing.priceType}</Text>
+                <Stars
+                votes={listing.stars}
+                size={12}
+                color={colors.green}
+                />
+              </Box>
+            </Box>
+
           </View>
         </TouchableHighlight>
       );
