@@ -24,10 +24,22 @@ export default class NoAdverts extends Component {
           >
             Start under 5 minutes and make your business grow.
           </Text>
-          <Input placeholder="Ad Budget" />
-          <Input placeholder="Prefered Time" />
-          <Input placeholder="Name of Business - Ridirect" />
-          <Input placeholder="Ad Caption" />
+          <Input
+           placeholder="Ad Budget"
+           editable={false}
+          />
+          <Input
+           placeholder="Prefered Time"
+           editable={false}
+          />
+          <Input
+           placeholder="Name of Business - Ridirect"
+           editable={false}
+          />
+          <Input
+           placeholder="Ad Caption"
+           editable={false}
+           />
 
 
         </ScrollView>
