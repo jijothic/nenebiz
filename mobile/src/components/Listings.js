@@ -36,7 +36,7 @@ import {
              style={styles.listingTitle}
              numberOfLines={2}
             >
-              {listing.title}
+
             </Text>
             <Text style={styles.listingPrice}>{listing.price} {listing.priceType}</Text>
             <Stars
