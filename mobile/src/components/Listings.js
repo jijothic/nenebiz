@@ -116,7 +116,9 @@ import {
      minHeight: 100,
    },
    cardContent: {
-
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
    },
    image: {
      width: undefined,
@@ -130,18 +132,10 @@ import {
      fontWeight: '700',
      color: colors.grey,
      marginTop: 2,
-     flexDirection: 'row',
-     alignItems: 'center',
-     justifyContent: 'space-between',
-
    },
    listingType: {
      fontWeight: '700',
      fontSize: 10,
-     flexDirection: 'row',
-     alignItems: 'center',
-     justifyContent: 'space-between',
-
    },
    listingPrice: {
      color: colors.grey02,
@@ -149,9 +143,6 @@ import {
      marginBottom: 2,
      fontSize: 12,
      fontWeight: '600',
-     flexDirection: 'row',
-     alignItems: 'center',
-     justifyContent: 'space-between',
    }
 
  });
