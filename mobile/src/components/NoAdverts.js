@@ -15,12 +15,12 @@ export default class NoAdverts extends Component {
           <Text
           style={styles.description}
           >
-            Not every day is filled with adventures, but you can start planning for the next one.
+            You don't have active campaigns.
           </Text>
           <Text
           style={styles.description}
           >
-            Tap the heart on any home to start saving your favorites here.
+            Start under 5 minutes and make your business grow.
           </Text>
         </ScrollView>
         <View style={styles.footer}>
