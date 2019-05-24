@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View,Text,ScrollView, TouchableOpacity, StyleSheet } from 'react-native';
+import { View,Text,ScrollView, TouchableOpacity, StyleSheet, TextInput } from 'react-native';
 import colors from '../constants/colors'
 
 export default class NoAdverts extends Component {
