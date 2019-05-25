@@ -6,7 +6,6 @@ import Button from '../commons/Button';
 import { theme } from '../constants/theme';
 import { inject } from 'mobx-react/native';
 
-@inject('authStore')
 class BizScreen extends Component {
   static navigationOptions = {
     title: 'My Business'
