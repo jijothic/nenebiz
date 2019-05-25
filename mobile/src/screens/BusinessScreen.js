@@ -33,7 +33,7 @@ class BusinessScreen extends Component {
   state = {};
   render() {
     return (
-      <Box f={1} center>
+      <Box f={1} bg="white">
         <StatusBar barStyle="dark-content" />
         <ScrollView>
           {LINKS.map(el => (
