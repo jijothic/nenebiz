@@ -52,11 +52,19 @@ const ProfileStack = createStackNavigator(
     Settings: {
       getScreen: () => require('./SettingsScreen').default,
     },
+    Addresses:{
+      getScreen: () => require('./BizScreen').default,
+    }
   },
   {
     navigationOptions: {
+      headerBackTitle: null,
+      headerTintColor: theme.color.green,
+      headerStyle {
+        backgroundColor: theme.color.white,
+      },
       headerTitleStyle: {
-        fontWeight: '400',
+        color: theme.color.black,
       },
     },
   },
