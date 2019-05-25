@@ -32,6 +32,14 @@ class BizScreen extends Component {
 }
 
 const styels = StyleSheet.create({
+  button: {
+
+  },
+  textTitleAddBusiness: {
+    color: colors.white,
+    textAlign: 'center',
+    fontWeight: '600',
+  }
 
 })
 
