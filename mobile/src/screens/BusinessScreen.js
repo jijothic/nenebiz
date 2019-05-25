@@ -61,6 +61,7 @@ class BusinessScreen extends Component {
                   <MaterialIcons name="keyboard-arrow-right" {...baseIconStyle} />
                 </ListColumn.Right>
             </ListColumn>
+          ))}
         </ScrollView>
       </Box>
     );
