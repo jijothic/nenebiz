@@ -3,6 +3,7 @@ import { StatusBar, StyleSheet } from 'react-native';
 import { Box, Text } from 'react-native-design-utility';
 import { EvilIcons } from '@expo/vector-icons';
 import Button from '../commons/Button';
+import { theme } from '../constants/theme';
 
 class BizScreen extends Component {
   static navigationOptions = {
@@ -33,10 +34,14 @@ class BizScreen extends Component {
 
 const styels = StyleSheet.create({
   button: {
-
+    paddingTop: 15,
+  	paddingBottom: 15,
+  	marginTop: 16,
+  	borderRadius: 3,
+  	backgroundColor: theme.color.green,
   },
   textTitleAddBusiness: {
-    color: colors.white,
+    color: theme.color.white,
     textAlign: 'center',
     fontWeight: '600',
   }
