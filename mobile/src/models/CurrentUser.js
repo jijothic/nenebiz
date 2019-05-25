@@ -10,9 +10,9 @@ export const CurrentUserModel = types
   adresses: types.optional(types.array(UserBusinessModel), []),
 })
 .views(self => {
-  get businessIsEmpty() {
-    return self.adresses.length === 0;
-  },
+  // get businessIsEmpty() {
+  //   return self.adresses.length === 0;
+  // },
 });
 
 
