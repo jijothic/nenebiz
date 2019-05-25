@@ -5,6 +5,10 @@ import { Box, Text } from 'react-native-design-utility';
 import ProfileBtn from '../commons/ProfileBtn';
 
 class BusinessScreen extends Component {
+  static navigationOptions = {
+    title: 'My Business',
+  };
+
   state = {};
   render() {
     return (
