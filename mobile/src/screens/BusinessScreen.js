@@ -13,8 +13,8 @@ class BusinessScreen extends Component {
   render() {
     return (
       <Box f={1} center>
-        <StatusBar barStyle="light-content" />
-        <Text>BusinessScreen</Text>
+        <StatusBar barStyle="dark-content" />
+        <Text>Business Screen</Text>
       </Box>
     );
   }
