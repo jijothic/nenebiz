@@ -60,7 +60,7 @@ const ProfileStack = createStackNavigator(
     navigationOptions: {
       headerBackTitle: null,
       headerTintColor: theme.color.green,
-      headerStyle {
+      headerStyle: {
         backgroundColor: theme.color.white,
       },
       headerTitleStyle: {
