@@ -15,7 +15,7 @@ class BizScreen extends Component {
     return (
       <Box f={1} center>
         <StatusBar barStyle="dark-content" />
-        <Box>
+        <Box w={1}>
           <Button
            syle={styels.button}
           onPress={this.handleAddBusinessPress}
