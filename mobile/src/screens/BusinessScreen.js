@@ -14,24 +14,14 @@ const baseIconStyle = {
 
 const LINKS = [
   {
-    link: 'Share',
-    title: 'Invite friends',
-    icon: <EvilIcons name="share-apple" {...baseIconStyle} />,
+    link: 'EditUserInfor',
+    title: 'Your name and email',
+    icon: <EvilIcons name="user" {...baseIconStyle} />,
   },
   {
-    link: 'Help',
-    title: 'Help',
-    icon: <Ionicons name="ios-help-circle-outline" {...baseIconStyle} />,
-  },
-  {
-    link: 'About',
-    title: 'About this app',
-    icon: <Ionicons name="ios-information-circle-outline" {...baseIconStyle} />,
-  },
-  {
-    link: 'Settings',
-    title: 'Your accounts settings',
-    icon: <Feather name="settings" {...baseIconStyle} />,
+    link: 'Addresses',
+    title: 'Addresses',
+    icon: <Ionicons name="location" {...baseIconStyle} />,
   },
 ];
 
