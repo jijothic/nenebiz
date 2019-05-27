@@ -45,13 +45,13 @@ const ShoppingCartNavigator = createStackNavigator({
 });
 
 // Add Busness
-const BusinessStack = createStackNavigator(
-  {
-    Busineses : {
-      getScreen: () => require('./BizScreen').default,
-    },
-  },
-);
+// const BusinessStack = createStackNavigator(
+//   {
+//     Busineses : {
+//       getScreen: () => require('./BizScreen').default,
+//     },
+//   },
+// );
 
 const ProfileStack = createStackNavigator(
   {
