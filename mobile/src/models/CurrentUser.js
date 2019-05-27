@@ -8,11 +8,11 @@ export const CurrentUserModel = types
   lastName: types.string,
   avatarUrl: types.maybe(types.string),
   adresses: types.optional(types.array(UserBusinessModel), []),
-})
-.views(self => {
+});
+// .views(self => {
   // get businessIsEmpty() {
   //   return self.adresses.length === 0;
   // },
-});
+// });
 
 

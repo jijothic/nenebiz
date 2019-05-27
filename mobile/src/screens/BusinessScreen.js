@@ -25,6 +25,7 @@ const LINKS = [
   },
 ];
 
+@inject('authStore')
 class BusinessScreen extends Component {
   static navigationOptions = ({ navigation }) => ({
     title: navigation.getParam('name', 'nenebiz'),
