@@ -48,7 +48,7 @@ const ShoppingCartNavigator = createStackNavigator({
 const BusinessStack = createStackNavigator(
   {
     Busineses : {
-      getScreen: () = require('./BizScreen').default,
+      getScreen: () => require('./BizScreen').default,
     },
   },
 );
