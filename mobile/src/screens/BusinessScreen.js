@@ -19,8 +19,8 @@ const LINKS = [
     icon: <EvilIcons name="user" {...baseIconStyle} />,
   },
   {
-    link: 'Addresses',
-    title: 'Addresses',
+    link: 'Businesses',
+    title: 'Businesses',
     icon: <Ionicons name="location" {...baseIconStyle} />,
   },
 ];
