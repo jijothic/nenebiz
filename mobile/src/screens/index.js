@@ -136,7 +136,7 @@ const MainNavigator = createStackNavigator(
     Profile: ProfileStack,
   },
   {
-    mode: 'modal',
+    mode: 'card',
     navigationOptions: {
       header: null,
     },
