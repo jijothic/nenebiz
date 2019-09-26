@@ -25,7 +25,7 @@ class CategoryCard extends PureComponent {
             </Text>
           </Box>
         </TouchableOpacity>
-      </ScrollView>
+      </Scrollview>
     );
   }
 }
